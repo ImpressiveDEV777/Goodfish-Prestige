@@ -1,0 +1,40 @@
+/******
+
+Section specific theme overrides should go here. Any theme-wide overrides should be moved to theme-custom.scss asap
+
+******/
+
+/* section[id $= "__164170615155930769"] .ImageHero--large {
+	border: 2em solid var(--header-background);
+} */
+
+section[id $= "__1642014727259c3ce9"] .FeatureText__ImageWrapper {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+section[id $= "__1642014727259c3ce9"] .SectionHeader__Description {
+	margin-bottom: 3em;
+	font-family: var(--heading-font-family);
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+section[id $= "__1642014727259c3ce9"] .SectionHeader__Description a {
+	text-decoration: none;
+}
+
+section[id $= "__16420135854077f859"] .FeaturedMap__Address p {
+	font-family: var(--heading-font-family);
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+section[id $= "__1639524555cfbbc3ad"] {
+	padding-bottom: 0;
+}
+
+section[id $= "__1642028451b35dc8a2"] .Timeline__Item .SectionHeader__Heading.Heading.u-h1 {
+	color: var(--link-color);
+}

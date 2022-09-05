@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "164202574062f50243": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "#1f2e26",
+        "border_size": 30,
+        "image": "shopify:\/\/shop_images\/hero-06.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 50,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "main": {
+      "type": "main-faq",
+      "blocks": {
+        "f46dffb8-3b95-4f40-afb0-4214d78ba271": {
+          "type": "separator",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "00657918-5b4d-4343-acd6-c4335748785a": {
+          "type": "question",
+          "settings": {
+            "title": "Why are some items out of stock?",
+            "answer": "<p>As a smaller scale company, we fish the bulk of our seafood from our own boats, supplemented by a small number of other trusted captains. Small-scale means we can keep a keen eye on the quality of our products and make sure that quality is consistent. If something is out of stock and you want to be notified about it as soon as it's restocked, join our mailing list to stay in the loop on what we're catching throughout the year.<em> <\/em><\/p>"
+          }
+        },
+        "cf7956ab-ec26-43c2-b596-6b1eb9b0bf0d": {
+          "type": "question",
+          "settings": {
+            "title": "Why do prices seem to fluctuate?",
+            "answer": "<p>Each season brings new factors that can affect our fish prices (catch volume, local market and global demand, length of season, lease pries for quota and licenses migratory pattern etc.). While you might notice prices fluctuating, we’re doing our best to give fair payment for our crew and captains and affordable products for our customers. We want to keep local seafood accessible!<\/p>"
+          }
+        },
+        "6478ede1-9262-4c60-8588-a9e9c5ca9263": {
+          "type": "question",
+          "settings": {
+            "title": "The boat that caught my seafood isn’t one of yours. Who caught my fish?",
+            "answer": "<p>While we work our boats throughout the season, we might be chasing tuna far offshore or zeroing in on halibut. In order to consistently offer a range of products like lingcod, crab or rockfish, we supplement our fleet's catch with fish bought from a small group of other similarly principled fishermen who we consider part of the GoodFish family. Traceability is important to us, so you’ll always know where your fish came from, whether it’s our boat or not.<\/p>"
+          }
+        },
+        "957eb0cf-10bf-4c36-a695-38e112719d9b": {
+          "type": "question",
+          "settings": {
+            "title": "I’ve had an issue with my order, what can I do?",
+            "answer": "<p>Our top priority is making sure our customers receive what they have ordered and paid for! If you are having any issues, from shipping to product quality, please reach out so we can solve your issue: whatsgood@goodfish.co.<\/p>"
+          }
+        },
+        "96f41dd7-d6a7-436f-90d2-a250a22b2e67": {
+          "type": "question",
+          "settings": {
+            "title": "I have a suggestion for you that would make ordering easier for me, can I make a suggestion?",
+            "answer": "<p>Yes, we love suggestions and feedback, please email us at whatsgood@goodfish.co and fill us in on how we can improve our service.<\/p>"
+          }
+        },
+        "fd165549-f9d7-4424-a4a6-54449bd97010": {
+          "type": "question",
+          "settings": {
+            "title": "I am interested in buying wholesale or would like to stock your products. How can I get in touch?",
+            "answer": "<p>Please email Dylan at <a href=\"mailto:orders@goodfish.co\"><span style=\"text-decoration:underline\">dylan@goodfish.co<\/span><\/a> and he’ll be happy to provide you with all the necessary information!<\/p>"
+          }
+        },
+        "97e80127-a811-40ac-9f99-068cd809c20a": {
+          "type": "question",
+          "settings": {
+            "title": "Why GoodFish?",
+            "answer": "<p>To real with you, it's a simple name that really sums up what we are all about.<\/p><p><\/p><p> It also sounds good rolling off the tongue which we're pretty into.<\/p><p>GoodFish GoodFish GoodFish :)<\/p>"
+          }
+        },
+        "c2cfd2bf-a59d-4345-83d7-fe5380c8edde": {
+          "type": "separator",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "d183b53d-2c40-4d1e-84c8-cefbaf9be2db": {
+          "type": "question",
+          "settings": {
+            "title": "How does the delivery and pickup options work?",
+            "answer": "<p>Once you have finalized your order, select whether you would like pick up or delivery (Shipping is only currently available for canned product and merch). <\/p><p>For <strong>pick up,<\/strong> select the most convenient pick-up location and time from the available options, and we’ll see you there with your order. <\/p><p>For <strong>delivery<\/strong>, please confirm your delivery address and details, and select a delivery date. We will contact you on that day with a timeframe to expect your delivery.<\/p><p>If you have any special requests, or need other options, please let us know in the order’s notes section, and we’ll be happy to try and accommodate however we can!<\/p><p>orders@goodfish.co if you want to hit us up with your questions before you place your order.<\/p>"
+          }
+        },
+        "cb548547-c098-4a71-8853-77834ad817f8": {
+          "type": "question",
+          "settings": {
+            "title": "I'm trying to check out and buy fish but the pick-up \/ delivery options you offer don't work for me,can you help?",
+            "answer": "<p>Absolutely, if you are having any issues or have any special requests for delivery or pick-up, email us at orders@goodfish.co and we'll do our best to find a solution.<\/p>"
+          }
+        },
+        "b47fe361-fdbb-4e7b-996c-d74aee741ebe": {
+          "type": "question",
+          "settings": {
+            "title": "How does your country-wide shipping work for frozen product?",
+            "answer": "<p>We’re in the process of finalizing the details for our Canada-wide shipping program. Once we have perfected our shipping materials and can guarentee our frozen quality through the shipping chain we will be rolling out country wide shipping right to your door. We are aiming for Spring 2023, in the mean time we can ship our shelf stable cans and merch. Watch ou social media for updates.<\/p>"
+          }
+        },
+        "69141338-2ffa-46a5-b141-174ac5bad7a1": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "How does your country-wide shipping work?",
+            "answer": "<p>We’re in the process of finalizing the logistics for Canada-wide shipping, and hope to offer this later in 2023 Please check back soon!<\/p>"
+          }
+        },
+        "971d4138-8333-44a6-9cf3-d49559e1a9c6": {
+          "type": "question",
+          "settings": {
+            "title": "I missed my pick up time, what do I do now?",
+            "answer": "<p>No worries, we just kept your order in our freezer and we will contact you to try and get it to you before we leave your area. If we can't reach you, we'll keep it in the freezer till the next time its convenient for you to connect with us. <\/p>"
+          }
+        },
+        "8097e260-7cec-429f-9b02-e4dffe7e31f0": {
+          "type": "separator",
+          "settings": {
+            "title": "Seafood"
+          }
+        },
+        "cbfff56a-d2ce-4e61-af43-6f38a91b76c4": {
+          "type": "question",
+          "settings": {
+            "title": "I don’t see any salmon on your store, why not?",
+            "answer": "<p>While Pacific salmon have been the mainstay of BC’s commercial fishing industry and coastal economy for over 100 years, we are not currently very active in the salmon fisheries. Whie we love eating and fishing salmon, for our fishing business to grow and sustain itself over the last 10 years, we needed secure access to go fishing each season. Unfortunately, salmon fishing access has been unpredictable and inconsistent for years as wild salmon returns have been struggling and DFO has tried to figure out what to do about it. We made the choice to focus on other fisheries during the summer months to ensure the success of our fishing business and make sure our crew and captains made a living. Be sure that on the years when wild salmon return in abundance, we will happily be harvesting and offering wild pacific salmon to our customers. And if you don't see any salmon on our store, just know we are waiting for an abundant run to come back before we catch any more salmon. If you want salmon and we aren't selling it, email me fraser@goodfish.co and I'll put you in touch with our friends who fish salmon each summer and can fill your freezer. :)<\/p><p><\/p>"
+          }
+        },
+        "ee906922-f69b-47a7-9c54-f1e825c1963f": {
+          "type": "question",
+          "settings": {
+            "title": "I don’t cook seafood much, but I love eating it. Any good recipes or tips?",
+            "answer": "<p>Yes! Check out our <a href=\"\/blogs\/recipes\" title=\"Recipes\">recipes page<\/a>, where we’ve gathered all types of recipes. Dishes created by some of Canada’s greatest chefs will bring fine dining to your home kitchen, while our fishermen favourites give a taste of the simple (and delicious) meals we make when we’re out at sea.<\/p>"
+          }
+        },
+        "c6a6aaf3-2680-45c2-88db-983e98aace2e": {
+          "type": "question",
+          "settings": {
+            "title": "What is the best way to thaw my frozen fish?",
+            "answer": "<p>To maintain premium texture and taste, it is best to remove your fish from its vacuum pack and place it in a covered dish in the fridge. Allow it to gradually thaw before cooking. Each fish’s thaw time is different, so after 4–8 hours, try gently touching the fish to check. Remember to keep checking on it, and drain off any water as it thaws so your fish isn’t sitting in water. Once thawed, your fish will taste best when eaten within 4 days.<\/p><p>That said, we realize real life gets busy. If you need, you can place your vacuum-packed frozen fish in a bowl in the sink and run cold water over it to speed up the thawing process.<\/p>"
+          }
+        },
+        "cfa23c80-506c-4f82-83f2-99c661440385": {
+          "type": "question",
+          "settings": {
+            "title": "What is the best way to thaw my frozen shrimp, prawn or octopus tub?",
+            "answer": "<p>Remove the seafood from the tub and place it in a covered bowl in the fridge overnight, draining the melting water as it thaws. Prawn and shrimp shells can either be removed when thawed before or after cooking, depending on your recipe and preference.<\/p><p>If you are short on time, you can remove your fish from the tub, place the ice in a strainer and run it under cold water for 5 minutes while gently breaking up the ice and fish. Pat the tails or tentacles dry and allow them to fully thaw before cooking.<\/p>"
+          }
+        },
+        "0d0f7f2a-e41b-40d6-8e10-9ad180d08c0a": {
+          "type": "question",
+          "settings": {
+            "title": "Why are all your products frozen, isn't fresh fish the best?",
+            "answer": "<p>While we do some fresh ice fishing, mostly halibut and rockfish, the bulk of what we fish is all \"frozen at sea.\" <\/p><p>Our boats are equipped with industrial freezers that flash freeze our fish as soon as we catch it. This means the best possible quality (taste and texture) is maintained and when you thaw it out to eat it its as if it was just caught. It means you also enjoy a longer shelf life in the fridge once its thawed and it means all our fish can be enjoyed raw, sashimi style. <\/p>"
+          }
+        },
+        "5f258117-868a-4610-9ff1-634cb1ccded0": {
+          "type": "question",
+          "settings": {
+            "title": "Are there any bones in your fish portions?",
+            "answer": "<p>No, we make sure the way our fish is cut and packaged, there is no belly bones or pin bones in your portion. However, if you order a \"cheek\" a \"steak\" or round fish, there will be bones in it. That will be noted in the description though so just make sure you read the product description before you add to your cart.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f46dffb8-3b95-4f40-afb0-4214d78ba271",
+        "00657918-5b4d-4343-acd6-c4335748785a",
+        "cf7956ab-ec26-43c2-b596-6b1eb9b0bf0d",
+        "6478ede1-9262-4c60-8588-a9e9c5ca9263",
+        "957eb0cf-10bf-4c36-a695-38e112719d9b",
+        "96f41dd7-d6a7-436f-90d2-a250a22b2e67",
+        "fd165549-f9d7-4424-a4a6-54449bd97010",
+        "97e80127-a811-40ac-9f99-068cd809c20a",
+        "c2cfd2bf-a59d-4345-83d7-fe5380c8edde",
+        "d183b53d-2c40-4d1e-84c8-cefbaf9be2db",
+        "cb548547-c098-4a71-8853-77834ad817f8",
+        "b47fe361-fdbb-4e7b-996c-d74aee741ebe",
+        "69141338-2ffa-46a5-b141-174ac5bad7a1",
+        "971d4138-8333-44a6-9cf3-d49559e1a9c6",
+        "8097e260-7cec-429f-9b02-e4dffe7e31f0",
+        "cbfff56a-d2ce-4e61-af43-6f38a91b76c4",
+        "ee906922-f69b-47a7-9c54-f1e825c1963f",
+        "c6a6aaf3-2680-45c2-88db-983e98aace2e",
+        "cfa23c80-506c-4f82-83f2-99c661440385",
+        "0d0f7f2a-e41b-40d6-8e10-9ad180d08c0a",
+        "5f258117-868a-4610-9ff1-634cb1ccded0"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "164202574062f50243",
+    "main"
+  ]
+}

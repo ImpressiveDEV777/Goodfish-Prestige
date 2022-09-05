@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "1662120637e26a8069": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "section_size": "large",
+        "border_color": "#1f2e26",
+        "border_size": 30,
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 50,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Recipes",
+        "content": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_rss": false,
+        "show_tags": false,
+        "show_featured_article": true,
+        "show_category": true,
+        "show_date": true,
+        "show_author": true
+      }
+    }
+  },
+  "order": [
+    "1662120637e26a8069",
+    "main"
+  ]
+}

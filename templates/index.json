@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "164170615155930769": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "#1f2e26",
+        "border_size": 30,
+        "image": "shopify:\/\/shop_images\/273994424_2124584244356282_7261209246942322682_n_copy.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 35,
+        "image_2": "shopify:\/\/shop_images\/logo-hero-01.png",
+        "image_2_mobile": "shopify:\/\/shop_images\/logo-hero-01-mobile.png",
+        "image_2_max_width": 1080,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Wild seafood  sustainably caught",
+        "content": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": true
+      }
+    },
+    "16415956365143f61b": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "normal",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/Goodfish_0019_1500x1000_cf49fc5d-f98d-4470-8e09-41dfcfa7e1ae.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 35,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "WILD SEAFOOD FROM CANADA’S NORTH PACIFIC",
+        "content": "<p>Fresh, frozen and live from fishermen dedicated to consistency and quality.<\/p>",
+        "button_1_text": "Shop Now",
+        "button_1_link": "shopify:\/\/collections\/all-products",
+        "button_1_style": "filled",
+        "image_flare": "shopify:\/\/shop_images\/flare-frozen_929d0205-14a8-4413-8c7a-fcedc6e2cf86.png",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "featured-collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "seafood",
+            "title": "",
+            "title_collection": false,
+            "grid_items_count": 8,
+            "button_text": "Shop now"
+          }
+        },
+        "3e32e9a3-6a9c-4ddc-8537-3300a1f25ecd": {
+          "type": "collection",
+          "settings": {
+            "collection": "merchandise",
+            "title": "Shelf Stable",
+            "title_collection": false,
+            "grid_items_count": 8,
+            "button_text": "Shop now"
+          }
+        }
+      },
+      "block_order": [
+        "featured-collection-0",
+        "3e32e9a3-6a9c-4ddc-8537-3300a1f25ecd"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Product Highlights",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "1",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "164159271725dbc50c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "normal",
+        "border_color": "#1f2e26",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/Goodfish_9955_1500x1000_d98cf442-8156-49d5-b103-6030e3dc7981.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 35,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_heading",
+        "subheading": "",
+        "title": "Sustainability",
+        "content": "<p>GoodFish’s practices are shaped by nearly two decades of commercial fishing experience, continually influenced by current research and the best practices. Our commitment to sustainability starts with the consideration of how and what we fish, which influences each decision that follows. With peace of mind, you can focus on the fun part—enjoying delicious seafood.<\/p>",
+        "button_1_text": "Learn More",
+        "button_1_link": "shopify:\/\/pages\/sustainability",
+        "button_1_style": "outlined",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "1642031292ea0532cf": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "About Us",
+        "text_color": "#f3f3ee",
+        "background_color": "#1f2e26",
+        "image": "shopify:\/\/shop_images\/GoodFishSeafood-BoatAnimation_0eef621f-493c-4a18-bd5b-78ea5180780a.gif",
+        "image_position": "center",
+        "image_center_position": "image_center_position_heading",
+        "image_center_max_width": 564,
+        "content": "<p><strong>We are GoodFish.<\/strong><\/p><p>We’re a contemporary seafood company founded with the goal of fostering the connection between Canadians and our oceans through what we eat.<\/p>",
+        "content_strong": false,
+        "link_text": "Learn More",
+        "link_url": "shopify:\/\/pages\/about",
+        "link_color": "light"
+      }
+    },
+    "1639523446a4420c1e": {
+      "type": "shop-the-look",
+      "blocks": {
+        "1639523446a2631986-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-12-14_at_3.11.09_PM.png",
+            "dot_style": "light",
+            "product_1": "goodfish-dad-hat",
+            "product_1_horizontal_position": 40,
+            "product_1_vertical_position": 40,
+            "product_2": "",
+            "product_2_horizontal_position": 45,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 50
+          }
+        }
+      },
+      "block_order": [
+        "1639523446a2631986-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Goodfish <br>Merchandise",
+        "content": "<p>Modern styles inspired by traditional marine workwear, fit to handle everything from the spray of salty water and fish scales, to everyday errands.<\/p>",
+        "show_mobile_product_info": false,
+        "button_text": "Shop Merch",
+        "button_url": "shopify:\/\/collections\/merchandise",
+        "hide_product_button": true
+      }
+    },
+    "16416855271fbdbc6a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "normal",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/274208406_3068153800067478_4364373282250182315_n.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 35,
+        "image_2_max_width": 1200,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Traceability",
+        "content": "<p>We’re sharing the information consumers need to make the informed decisions they believe in. Our unparalleled traceability program answers all the questions that lead back to the who, what, where and when—you know the why.<\/p>",
+        "button_1_text": "Learn More",
+        "button_1_link": "shopify:\/\/pages\/traceability",
+        "button_1_style": "outlined",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "16395238295fb9e0cc": {
+      "type": "blog-posts",
+      "disabled": true,
+      "blocks": {
+        "163952382918c064ce-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "recipes"
+          }
+        }
+      },
+      "block_order": [
+        "163952382918c064ce-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Sea to stove",
+        "show_category": true,
+        "show_date": true,
+        "show_author": true,
+        "button_link": "shopify:\/\/blogs\/recipes",
+        "button_text": "Read more"
+      }
+    }
+  },
+  "order": [
+    "164170615155930769",
+    "16415956365143f61b",
+    "featured-collections",
+    "164159271725dbc50c",
+    "1642031292ea0532cf",
+    "1639523446a4420c1e",
+    "16416855271fbdbc6a",
+    "16395238295fb9e0cc"
+  ]
+}

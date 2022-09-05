@@ -1,0 +1,146 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "1643925730fc671731": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "#1f2e26",
+        "border_size": 30,
+        "image": "shopify:\/\/shop_images\/IMG_3494_copy2.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 35,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Traceability",
+        "content": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "1658427035da47b969": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "Track Our Boats",
+        "html": "<div class=\"wrapper\">\n<script type=\"text\/javascript\">\/\/ <![CDATA[\nwidth='100%';\t\t\/\/ the width of the embedded map in pixels or percentage\n\theight='820px';\t\t\/\/ the height of the embedded map in pixels or percentage\n\tborder='1';\t\t\/\/ the width of the border around the map (zero means no border)\n\tshownames='true';\t\/\/ to display ship names on the map (true or false)\n\tlatitude='50.3937';\t\/\/ the latitude of the center of the map, in decimal degrees\n\tlongitude='121.23';\t\/\/ the longitude of the center of the map, in decimal degrees\n\tzoom='9';\t\t\/\/ the zoom level of the map (values between 2 and 17)\n\tmaptype='1';\t\t\/\/ use 0 for Normal Map, 1 for Satellite\n\ttrackvessel='';\t\/\/ MMSI of a vessel (note: vessel will be displayed only if within range of the system) - overrides \"zoom\" option\n\tfleet='fraser@goodfish.co';\t\t\/\/ the registered email address of a user-defined fleet (user's default fleet is used) - overrides \"zoom\" option\n\/\/ ]]><\/script>\n<script type=\"text\/javascript\" src=\"\/\/www.marinetraffic.com\/js\/embed.js\"><\/script>\n<\/div>"
+      }
+    },
+    "1643925801f16ef7f4": {
+      "type": "text-with-image",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Wild Seafood Caught Sustainably",
+        "text_color": "",
+        "background_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/traceability.jpg",
+        "image_position": "center",
+        "image_center_position": "image_center_position_heading",
+        "image_center_max_width": 984,
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "16439291276f3f30d0": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Know Your Fish",
+        "text_color": "#f3f3ee",
+        "background_color": "#1f2e26",
+        "image": "shopify:\/\/shop_images\/IMG_0796.jpg",
+        "image_position": "right",
+        "image_center_position": "image_center_position_top",
+        "image_center_max_width": 180,
+        "content": "<p><strong>GoodFish X Vericatch<\/strong><\/p><p>We want our customers to have easy and convenient access to all the relevant traceability info for their fish.  Our tunaboats use Vericatch's E-Logbook software to log each fishing trips catch data. This info is uploaded to Vericatch's KNOWYOUR.Fish platform and they create a Catch ID QR code for each fishing trip. Scan the QR code on our labels to instantly see all the information you need to ensure our fish is the right choice for you. Whether it's the  captain, boat, gear type, trip dates or fishing area, you'll find it all through our QR code. We're proud of our work with Vericatch and look forward to expanding this proram to our other fisheries in 2023 and beyond!<\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "light"
+      }
+    },
+    "16439299252da6935d": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Ok, \"Traceability\" is important, but why?",
+        "text_color": "#1f2e26",
+        "background_color": "#f3f3ee",
+        "image": "shopify:\/\/shop_images\/traceability-02.jpg",
+        "image_position": "left",
+        "image_center_position": "image_center_position_top",
+        "image_center_max_width": 180,
+        "content": "<p>Seafood is a globally traded commodity. Fish is caught in every ocean and eaten, traded, sold and shipped toe very country on earth. Each country's labour laws and fisheries managment are different and some countrys do a better job than others. Canada's fisheries managment for many of our Pacific fisheries is best in class internationally. <\/p><p><strong>Traceability is important <\/strong>because it gives you, the consumer the information you need to buy fish that aligns with your values. Fish that was caught sustainably, in a well managed fishery, by fishermen who treat their catch like food as soon as they catch it. Click below to see our small fleet of boats.<\/p>",
+        "content_strong": false,
+        "link_text": "Meet your fleet here",
+        "link_url": "shopify:\/\/pages\/about",
+        "link_color": "dark"
+      }
+    },
+    "1643930001ff5374c8": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Transparency & Fairness",
+        "text_color": "#f3f3ee",
+        "background_color": "#1f2e26",
+        "image": "shopify:\/\/shop_images\/img-04.jpg",
+        "image_position": "right",
+        "image_center_position": "image_center_position_top",
+        "image_center_max_width": 180,
+        "content": "<p>Transparency and fairness are two key principles of what we will always offer you through GoodFish. <\/p><p>Transparency to us means always communicating openly with our customers and our team. Fairness to us means making sure our crew, captain and shore team are treated and paid fairly. Ensuring fair, affordable access to good healthy food for Canadians.<\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "164393000565df7738": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "normal",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/traceability-04.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#bab4a5",
+        "overlay_opacity": 25,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643925730fc671731",
+    "1658427035da47b969",
+    "1643925801f16ef7f4",
+    "16439291276f3f30d0",
+    "16439299252da6935d",
+    "1643930001ff5374c8",
+    "164393000565df7738"
+  ]
+}

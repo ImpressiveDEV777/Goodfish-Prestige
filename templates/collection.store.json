@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_collection_info": true,
+        "show_collection_image": false,
+        "apply_overlay": true,
+        "show_color_swatch": false,
+        "show_vendor": false,
+        "collection_image_size": "normal",
+        "show_sort_by": true,
+        "show_layout_switch": false,
+        "toolbar_position": "top",
+        "show_filters": true,
+        "show_filter_color_swatch": false,
+        "expand_filters": false,
+        "filter_position": "sidebar",
+        "filter_menu": "",
+        "grid_items_per_page": 16,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 3
+      }
+    },
+    "16419569153aba685a": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"shop-main-nav\">\n<h2><a href=\"#shopify-section-template--15368667234500__163952614564cf3472\">Seafood<\/a><\/h2>\n<h2><a href=\"#shopify-section-template--15368667234500__16395262351c62a214\">Merchandise<\/a><\/h2>\n<\/div>"
+      }
+    },
+    "1641956560ecc3da05": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/traceability-02.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "WILD SEAFOOD FROM CANADA’S NORTH PACIFIC",
+        "content": "<p>Your favourite seafood from British Columbia’s crisp coastal waters. Halibut or lingcod, prawns or crab, tuna or octopus—each product is caught, processed and packaged with our customers in mind.     <\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "image_flare": "shopify:\/\/shop_images\/flare-frozen_929d0205-14a8-4413-8c7a-fcedc6e2cf86.png",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "163952614564cf3472": {
+      "type": "featured-collections",
+      "blocks": {
+        "163952614593f70d10-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "seafood",
+            "title": "",
+            "title_collection": false,
+            "grid_items_count": 20,
+            "button_text": ""
+          }
+        },
+        "154fca7f-9de5-4cd8-a899-50e9b7f33351": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "title_collection": false,
+            "grid_items_count": 8,
+            "button_text": "View all products"
+          }
+        }
+      },
+      "block_order": [
+        "163952614593f70d10-0",
+        "154fca7f-9de5-4cd8-a899-50e9b7f33351"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "164195849792ca7d50": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "normal",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/Goodfish1322.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "WORKWEAR WORN AT SEA",
+        "content": "<p>Modern styles inspired by traditional marine workwear, fit to handle everything from the spray of salty water and to everyday errands.<\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "16395262351c62a214": {
+      "type": "featured-collections",
+      "blocks": {
+        "16395262358fe419b4-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "merchandise",
+            "title": "",
+            "title_collection": false,
+            "grid_items_count": 20,
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16395262358fe419b4-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16419569153aba685a",
+    "1641956560ecc3da05",
+    "163952614564cf3472",
+    "164195849792ca7d50",
+    "16395262351c62a214"
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "1642018578f9bc9c66": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "#1f2e26",
+        "border_size": 30,
+        "image": "shopify:\/\/shop_images\/Goodfish_9955_1500x1000_d98cf442-8156-49d5-b103-6030e3dc7981.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 50,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Sustainability <br>At sea",
+        "content": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "1642018620af7b009b": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Wild seafood Caught sustainably",
+        "text_color": "",
+        "background_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/icon-fish.png",
+        "image_position": "center",
+        "image_center_position": "image_center_position_heading",
+        "image_center_max_width": 228,
+        "content": "<p><strong>North Pacific Frozen Goods<\/strong><\/p><p>Our fisheries are recognized by OceanWise and the Marine Stewardship Council’s certifications for excellent sustainability practices. Most importantly, GoodFish’s principles follow our personal values. We build on lessons from the fishermen who came before us, along with our own years witnessing the industry’s impact, and stay on top of the latest research and policies. All of this has led to us exclusively working with traps or hook and line, carefully targeting precise depths in cold-water areas. We ensure little-to-no bycatch for delicious mindfulness.<\/p>",
+        "content_strong": true,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "1642019052ce3a2877": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Traceability",
+        "text_color": "#1f2e26",
+        "background_color": "#c9ae87",
+        "image": "shopify:\/\/shop_images\/Goodfish0235_1_7b772141-eb74-4ca8-bcc8-08bf7afe8419.jpg",
+        "image_position": "right",
+        "image_center_position": "image_center_position_top",
+        "image_center_max_width": 180,
+        "content": "<p>We’re giving you all the information you need to buy the seafood you want to support. Using an unparalleled traceability program from Vericatch, we apply each of our products with a QR code that you can scan to instantly reveal everything there is to know: which boat it came from, where it was fished, when and exactly how it was caught. Your purchase from us supports sustainable practices and fair relations.<\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "164201981593f805d9": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Packaging",
+        "text_color": "#f3f3ee",
+        "background_color": "#1f2e26",
+        "image": "shopify:\/\/shop_images\/Goodfish0117_1.jpg",
+        "image_position": "left",
+        "image_center_position": "image_center_position_top",
+        "image_center_max_width": 180,
+        "content": "<p>As fishermen, we see firsthand the impact that floating debris has on the waters. Whether it’s close to the coast or way offshore, plastic and other waste are unfortunately too commonly seen on the water. The fact that the seafood industry—something so dependent on healthy oceans and everything that lives in them—relies on single-use items like vacuum pack plastic feels so contradictory to us. We knew we had to search for more viable options for our products.<\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "16420204795a6bcd06": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Our work with <br>grounded packaging",
+        "text_color": "",
+        "background_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/icon-fish-text.png",
+        "image_position": "center",
+        "image_center_position": "image_center_position_heading",
+        "image_center_max_width": 300,
+        "content": "<p>This led us to <a href=\"https:\/\/groundedpackaging.co\/\"><span style=\"text-decoration:underline\">Grounded Packaging<\/span><\/a>, a sustainability-focused packaging company. We reached out to them, searching for just the right resource to fit our needs. We landed on their home compostable vacuum-sealed bags made with a completely biodegradable material. But no one had ever taken their product to the -40ºC temperatures that we need to safely freeze our seafood. So, we spent nearly two years in quality-testing trials and seeking approval from the Canadian Food Inspection Agency.<\/p><p>The wait was more than worth it. In 2022, we’re excited to start the transition to Grounded Packaging, and are proud to be one of the first companies to debut this home compostable vacuum-sealed bags to North America.<\/p><p>We use materials that are easiest on our oceans, and keep researching as new technology comes out. Beyond making our own offerings the best they can be, we want our peers to see what’s possible. If everyone else follows suit, we’d hope to reduce—and eventually eliminate—single-use items from the fishing industry.<\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "16420198187bee4157": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/hero-05.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 50,
+        "image_2": "shopify:\/\/shop_images\/icon-fish-white.png",
+        "image_2_max_width": 264,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Our Fishing MEthods",
+        "content": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "164392504760b616b9": {
+      "type": "columns",
+      "blocks": {
+        "c600550d-53ad-4c8e-bc8d-48ca477e532b": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "title": "Circle Hook and Long Line",
+            "text_color": "#ffffff",
+            "background_color": "#1f2e27",
+            "image_position": "image_position_top",
+            "image_max_width": 180,
+            "content": "<p>Longlining is a low-impact method for catching groundfish like halibut, lingcod, rockfish and sablefish. We bait stainless-steel hooks snapped onto a weighted line, and set these in specified areas on the seafloor to make sure we only catch the species we’re looking for.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_color": "dark"
+          }
+        },
+        "a847800f-614d-4021-893f-1a9aa14869d8": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "title": "Trap",
+            "text_color": "",
+            "background_color": "",
+            "image_position": "image_position_top",
+            "image_max_width": 180,
+            "content": "<p>Our prawns, shrimp and crab are all caught using traps. Depending on the fishery and area, traps can either be set on a longline or as a single pot, which we check once a day. To eliminate the risk of “ghost fishing gear”, all of our traps have an escape panel that disintegrates, so if it gets lost to the water, it won’t collect more creatures, and any that have already been caught can break free.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_color": "dark"
+          }
+        }
+      },
+      "block_order": [
+        "c600550d-53ad-4c8e-bc8d-48ca477e532b",
+        "a847800f-614d-4021-893f-1a9aa14869d8"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text_color": "",
+        "background_color": "",
+        "flare_position": "bottomRight"
+      }
+    },
+    "164392505721fbdd71": {
+      "type": "columns",
+      "blocks": {
+        "415a8344-3e88-4095-9e68-6aee21edddce": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "title": "Surface Troll",
+            "text_color": "",
+            "background_color": "",
+            "image_position": "image_position_top",
+            "image_max_width": 180,
+            "content": "<p>For this hook and line method, we tow 12 to 14 barbless, unbaited hooks across the surface behind our boat to catch our albacore tuna. The specific jigs and speed target albacore so there’s almost no bycatch. In any given season, we typically only have three individual cases of bycatch at the very most, all of which we then release alive. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_color": "dark"
+          }
+        },
+        "18fed280-ddeb-424d-8a7a-a1393c42d77f": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "title": "Gang Troll",
+            "text_color": "#ffffff",
+            "background_color": "#1f2e27",
+            "image_position": "image_position_top",
+            "image_max_width": 180,
+            "content": "<p>Gang trolling is a slow and selective hook and line method of harvesting lingcod and rockfish. We sink trolling wire with a heavy lead weight so that it hovers just off the seafloor. A short distance above the weight, a long \"gang\" line with floats is clipped on the wire, from which we troll 5 to 15 hooks. We have 100% retention of all of our catch, so there is no wasted fish.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_color": "dark"
+          }
+        }
+      },
+      "block_order": [
+        "415a8344-3e88-4095-9e68-6aee21edddce",
+        "18fed280-ddeb-424d-8a7a-a1393c42d77f"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text_color": "",
+        "background_color": "",
+        "flare_position": "bottomRight"
+      }
+    },
+    "16420217815973c818": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/img-03.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 50,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Traceability",
+        "content": "<p>We’re sharing the information consumers need to make the informed decisions they believe in. Our unparalleled traceability program answers all the questions that lead back to the who, what, where and when—you know the why.<\/p>",
+        "button_1_text": "Learn More",
+        "button_1_link": "shopify:\/\/pages\/traceability",
+        "button_1_style": "outlined",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642018578f9bc9c66",
+    "1642018620af7b009b",
+    "1642019052ce3a2877",
+    "164201981593f805d9",
+    "16420204795a6bcd06",
+    "16420198187bee4157",
+    "164392504760b616b9",
+    "164392505721fbdd71",
+    "16420217815973c818"
+  ]
+}

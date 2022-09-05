@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1642012213a55727a8": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/hero-04.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 50,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Wild seafood  <br>Sustainably caught <br>Frozen at sea",
+        "content": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "outlined",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "1642014727259c3ce9": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Contact us for more information",
+        "text_color": "#1f2e26",
+        "background_color": "#f3f3ee",
+        "image": "shopify:\/\/shop_images\/logo-boat-no_text-green.png",
+        "image_position": "center",
+        "image_center_position": "image_center_position_heading",
+        "image_center_max_width": 408,
+        "content": "<p>T. 604-902-5504<br\/>E. <a href=\"mailto:Hello@Goodfish.com\" title=\"mailto:Hello@Goodfish.com\">whatsgood@goodfish.co<\/a><\/p>",
+        "content_strong": false,
+        "link_text": "Get in touch",
+        "link_url": "mailto:whatsgood@Goodfish.com",
+        "link_color": "dark"
+      }
+    },
+    "16420135854077f859": {
+      "type": "map",
+      "settings": {
+        "subheading": "",
+        "title": "You can find us by the wharf",
+        "content": "",
+        "title_map": "",
+        "address": "<p>#75 - 1505<br\/>W. 1st Ave<br\/>Vancouver BC<\/p>",
+        "hours": "<p>Usually Monday to Friday<\/p><p>Usually 10am ’til 5pm<\/p><p>Please stop by and say hello, just make sure to contact us by phone or email before you do in case we are out on the water!<\/p>",
+        "map_address": "1505 W 1st Ave, Vancouver",
+        "map_link_label": "",
+        "api_key": "AIzaSyD0GyA9sNdZcE2Y1FYtDBPKD1YVuVvpuqY",
+        "zoom": 14,
+        "map_style": "standard",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-30_at_3.08.33_PM.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642012213a55727a8",
+    "1642014727259c3ce9",
+    "16420135854077f859"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "dropdown",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": true
+          }
+        },
+        "c8967fc6-cd2b-42f6-a84f-43fa9b1f6d8e": {
+          "type": "content",
+          "settings": {
+            "title": "More informations",
+            "content": "<p>{{ product.metafields.my_fields.more_info.value }}<\/p>",
+            "page": "",
+            "content_position": "right"
+          }
+        },
+        "4ce6108e-5c42-480f-a368-70c2731d6c5f": {
+          "type": "content",
+          "settings": {
+            "title": "Fishing Method",
+            "content": "<p>Surface troll<\/p>",
+            "page": "",
+            "content_position": "left"
+          }
+        },
+        "42809437-514c-4c07-88bc-72cf97f227e5": {
+          "type": "content",
+          "settings": {
+            "title": "Sustainable Packaging",
+            "content": "<p>-<\/p>",
+            "page": "",
+            "content_position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "description",
+        "variant_selector",
+        "quantity_selector",
+        "buy_buttons",
+        "c8967fc6-cd2b-42f6-a84f-43fa9b1f6d8e",
+        "4ce6108e-5c42-480f-a368-70c2731d6c5f",
+        "42809437-514c-4c07-88bc-72cf97f227e5"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": true,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "1641962610b458cc0a": {
+      "type": "blog-posts",
+      "blocks": {
+        "cbe0bc6e-640f-4e78-9e38-9e8fec843bcf": {
+          "type": "blog",
+          "settings": {
+            "blog": "recipes"
+          }
+        }
+      },
+      "block_order": [
+        "cbe0bc6e-640f-4e78-9e38-9e8fec843bcf"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Recipes",
+        "show_category": false,
+        "show_date": false,
+        "show_author": false,
+        "button_link": "",
+        "button_text": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1641962610b458cc0a",
+    "product-recommendations",
+    "recently-viewed-products"
+  ]
+}

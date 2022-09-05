@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "1642027680752bccc0": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/I8A9040_1.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 50,
+        "image_2": "shopify:\/\/shop_images\/logo-hero-about.png",
+        "image_2_max_width": 1080,
+        "image_2_position": "image_2_position_heading",
+        "subheading": "",
+        "title": "About Us",
+        "content": "<p>We are GoodFish. That’s our name, that’s our product. We’re fishermen who have spent nearly two decades on British Columbia’s coastal waters learning what it means to deliver community-driven, accessible local seafood that we’re proud to share. <\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    },
+    "163952439953ba2268": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Wild Seafood <br>Caught Sustainably",
+        "text_color": "#1f2e26",
+        "background_color": "#f3f3ee",
+        "image": "shopify:\/\/shop_images\/icon-fish.png",
+        "image_position": "center",
+        "image_center_position": "image_center_position_heading",
+        "image_center_max_width": 228,
+        "content": "<p>Our sustainable approach is low volume, high quality: minimal-impact harvesting, industry-leading traceability technology and meticulous care with each fish, crustacean and octopus caught and sold. We’re committed to our future oceans—diligence on our side for simplicity on yours.<\/p>",
+        "content_strong": false,
+        "link_text": "Learn more",
+        "link_url": "shopify:\/\/pages\/sustainability",
+        "link_color": "dark"
+      }
+    },
+    "1639524413c789d324": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "LOCATION",
+        "text_color": "#f3f3ee",
+        "background_color": "#1f2e26",
+        "image": "shopify:\/\/shop_images\/about-02.jpg",
+        "image_position": "right",
+        "image_center_position": "image_center_position_top",
+        "image_center_max_width": 180,
+        "content": "<p>While our fishing trips lead us into every nook and cranny of the BC coast, our operations are based out of Vancouver’s False Creek. It’s a prime spot to meet fellow seafood lovers wandering by, stopping for a chat while we go about our business. The board running the False Creek Harbour Authority is made up of fishermen with years of commercial fishing experience, and is operated by a small, dedicated staff. We’re proud to call this our home port, to be surrounded by the bustle of our modern city while steeped in the legacy of the local commercial fishing industry.  <\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "1639524539b273585b": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "COMMUNITY",
+        "text_color": "#1f2e26",
+        "background_color": "#ebd6b4",
+        "image": "shopify:\/\/shop_images\/majestic_samG_1.jpg",
+        "image_position": "left",
+        "image_center_position": "image_center_position_top",
+        "image_center_max_width": 180,
+        "content": "<p>While Vancouver is where our sales and business operations mainly take place, we’re only able to do what we do because of the communities along BC’s coast. Commercial fishing on these rich waters is built on storied harvesting traditions that we’re proud to carry on, and it’s important to support those who make up our community. We’d like to thank all those who make it possible for us to harvest seafood the way we believe in: to all the store, hotel and restaurant owners; the fuel docks, welders, mechanics and refrigeration techs; the seaplane pilots and taxi drivers; the fishing supply stores up and down the coast. If you’re ever making your way around these parts, we encourage you to stop in and experience the hospitality of the great folks in places like Steveston, Ucluelet, Bamfield, Zeballos, Kyuquot, Esperanza, Coal Harbour, Port Hardy, Port McNeill, Dawson’s Landing, Klemtu, Prince Rupert—to name a few.<\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "1639524555cfbbc3ad": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Our Vessels",
+        "text_color": "",
+        "background_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/logo-boat-no_text-green.png",
+        "image_position": "center",
+        "image_center_position": "image_center_position_heading",
+        "image_center_max_width": 408,
+        "content": "<p>We first took the plunge into boat ownership back in 2012, steadily growing our fleet to the four vessels we are now proud to call our own. Two of them are more modern, smaller and higher-speed aluminum vessels, meant for catching live seafood on shorter trips, two days max. The other boats are more traditional troller-styles, made of fibreglass and equipped with industrial freezers to last us two to four weeks out at sea.<\/p>",
+        "content_strong": false,
+        "link_text": "",
+        "link_url": "",
+        "link_color": "dark"
+      }
+    },
+    "1642028451b35dc8a2": {
+      "type": "timeline",
+      "blocks": {
+        "16420284514ff82734-0": {
+          "type": "item",
+          "settings": {
+            "text_color": "#f3f3ee",
+            "background_color": "#f3f3ee",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-12-14_at_3.29.43_PM.png",
+            "apply_overlay": true,
+            "title": "Cold Fish",
+            "subheading": "",
+            "heading": "Cold Fish",
+            "content": "<p>The Cold Fish was built in 1978 by Pedar Pedersen in Parksville, BC. A small, rugged boat, originally a freezer-equipped salmon troller, we now take it out to fish for prawn, tuna, and various groundfish every year.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "16420284514ff82734-2": {
+          "type": "item",
+          "settings": {
+            "text_color": "",
+            "background_color": "#f3f3ee",
+            "image": "shopify:\/\/shop_images\/img-5104.jpg",
+            "apply_overlay": true,
+            "title": "Triple M II",
+            "subheading": "",
+            "heading": "Triple M II",
+            "content": "<p>Built in 1966 by North Vancouver’s Mauriks brothers, the Triple M II is a history maker. First for its 50-foot-long fibreglass structure, then for redefining long-haul salmon fishing trips. Since we’ve taken ownership, the Triple M II now fishes for everything from prawns to octopus, tuna to halibut, and more.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "4fdb844e-e2ac-4528-9465-d5f82fd2dee5": {
+          "type": "item",
+          "settings": {
+            "text_color": "",
+            "background_color": "#f3f3ee",
+            "image": "shopify:\/\/shop_images\/lilkath.jpg",
+            "apply_overlay": true,
+            "title": "Little Kathy",
+            "subheading": "",
+            "heading": "Little Kathy",
+            "content": "<p>This one is special. Built as a high-speed herring fishing boat in 1990, the Little Kathy didn’t have any of the proper equipment for prawn traps when Fraser bought it in 2012. But we knew it had potential, and completely upgraded every wire, bolt and switch. This is where it all started for us.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "a8f4ea47-ed74-4548-a233-912e41003046": {
+          "type": "item",
+          "settings": {
+            "text_color": "",
+            "background_color": "#f3f3ee",
+            "image": "shopify:\/\/shop_images\/RACER_X.jpg",
+            "apply_overlay": true,
+            "title": "Racer X",
+            "subheading": "",
+            "heading": "Racer X",
+            "content": "<p>Racer X is our most modern boat. The original owner, Frank Syrotuck in Nanoose Bay, would take it out for spot prawn fishing with his family. This is still Racer X’s main catch today, but with its sturdiness and high speed, we have big plans for this boat’s future.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16420284514ff82734-0",
+        "16420284514ff82734-2",
+        "4fdb844e-e2ac-4528-9465-d5f82fd2dee5",
+        "a8f4ea47-ed74-4548-a233-912e41003046"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color_mobile": "#1f2e26"
+      }
+    },
+    "16420304144aa9ba50": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "normal",
+        "border_color": "",
+        "border_size": 0,
+        "image": "shopify:\/\/shop_images\/IMG_3494_copy.jpg",
+        "text_color": "#f3f3ee",
+        "overlay_color": "#55645c",
+        "overlay_opacity": 50,
+        "image_2_max_width": 180,
+        "image_2_position": "image_2_position_top",
+        "subheading": "",
+        "title": "Traceability",
+        "content": "<p>We’re giving you all the information you need to buy the seafood you want to support. Using an unparalleled traceability program from Vericatch, we apply each of our products with a QR code that you can scan to instantly reveal everything there is to know: which boat it came from, where it was fished, when and exactly how it was caught. Your purchase from us supports sustainable practices and fair relations.<\/p>",
+        "button_1_text": "Learn More",
+        "button_1_link": "shopify:\/\/pages\/traceability",
+        "button_1_style": "filled",
+        "flare_position": "bottomRight",
+        "show_arrow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642027680752bccc0",
+    "163952439953ba2268",
+    "1639524413c789d324",
+    "1639524539b273585b",
+    "1639524555cfbbc3ad",
+    "1642028451b35dc8a2",
+    "16420304144aa9ba50"
+  ]
+}
