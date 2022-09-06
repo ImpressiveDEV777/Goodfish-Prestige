@@ -756,6 +756,10 @@ p {
   visibility: hidden;
 }
 
+#MethodModal .Heading {
+  color: #f3f3ee;
+}
+
 #MethodModal {
   position: relative;
   width: 750px;
@@ -763,6 +767,7 @@ p {
   box-shadow: 0px 0px 10px #999;
   background-color: var(--header-background);
   text-align: center;    
+  color: #f3f3ee;
 }  
 
 #MethodModal .MethodModal__Close, 
@@ -774,19 +779,24 @@ p {
   cursor: pointer;
 }
 
+.MethodModal__Container .Method__Selector .Heading {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
 .MethodModal__Container .Method__Selector {
   display: flex;
   justify-content: space-between;
 }
 
-.Method__Selector_p > div {
+.Method__Selector > div {
   width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border: 3px solid var(--header-border-color);
-  padding: 15px 10px;
+  padding: 1em;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
@@ -794,8 +804,12 @@ p {
 }
 
 .Method__Selector > div.active {
-  background: var(---color-text);
-  color: var(--bg);
+  background: var(--header-border-color);
+}
+
+#MethodModal #Method__Confirm {
+  filter: invert(1);
+  margin-top: 2em;
 }
 
 #MethodModal input, #MethodDropdown input {
@@ -814,12 +828,14 @@ p {
   display: none;
 }
 
-#methodDropdown [type="radio"]:checked,
-#methodDropdown [type="radio"]:not(:checked),
-#methodModal [type="radio"]:checked,
-#methodModal [type="radio"]:not(:checked),
-#rc_container [type="radio"]:checked,
-#rc_container [type="radio"]:not(:checked),
+.Method__Selector .Method__Pickup p {
+  text-align: left;
+}
+
+#MethodDropdown [type="radio"]:checked,
+#MethodDropdown [type="radio"]:not(:checked),
+#MethodModal [type="radio"]:checked,
+#MethodModal [type="radio"]:not(:checked),
 #storePickupApp [type="radio"]:checked,
 #storePickupApp [type="radio"]:not(:checked){
   position: absolute;
@@ -828,12 +844,10 @@ p {
 
 [type="radio"]:checked + span,
 [type="radio"]:not(:checked) + span,  
-#methodDropdown [type="radio"]:checked + label,
-#methodDropdown [type="radio"]:not(:checked) + label,
-#rc_container [type="radio"]:checked + label,
-#rc_container [type="radio"]:not(:checked) + label,
-#methodModal [type="radio"]:checked + label,
-#methodModal [type="radio"]:not(:checked) + label{
+#MethodDropdown [type="radio"]:checked + label,
+#MethodDropdown [type="radio"]:not(:checked) + label,
+#MethodModal [type="radio"]:checked + label,
+#MethodModal [type="radio"]:not(:checked) + label{
   position: relative;
   padding-left: 18px;
   cursor: pointer;
@@ -844,12 +858,10 @@ p {
 
 [type="radio"]:checked + span:before,
 [type="radio"]:not(:checked) + span:before,
-#methodDropdown [type="radio"]:checked + label:before,
-#methodDropdown [type="radio"]:not(:checked) + label:before,
-#methodModal [type="radio"]:checked + label:before,
-#methodModal [type="radio"]:not(:checked) + label:before,
-#rc_container [type="radio"]:checked + label:before,
-#rc_container [type="radio"]:not(:checked) + label:before{
+#MethodDropdown [type="radio"]:checked + label:before,
+#MethodDropdown [type="radio"]:not(:checked) + label:before,
+#MethodModal [type="radio"]:checked + label:before,
+#MethodModal [type="radio"]:not(:checked) + label:before {
   content: '';
   position: absolute;
   left: 0;
@@ -867,14 +879,13 @@ p {
 #MethodModal [type="radio"]:not(:checked) + label:after,
 #MethodDropdown [type="radio"]:checked + label:after,
 #MethodDropdown [type="radio"]:not(:checked) + label:after {
-  --btn-bg: var(---color-primary);
-  background: var(--btn-bg);
+  background: var(--header-border-color);
   content: '';
   width: 8px;
   height: 8px;
   position: absolute;
-  top: 6px;
-  left: 3px;
+  top: 5px;
+  left: 2px;
   border-radius: 100%;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;

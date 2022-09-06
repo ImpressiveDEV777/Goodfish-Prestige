@@ -80,7 +80,7 @@
   var methodDropdownContainer = document.querySelector("#MethodDropdown");
   var local_methodContainer = document.querySelector("#MethodModal .Method__Selector .Method__Local");
   var pickup_methodContainer = document.querySelector("#MethodModal .Method__Selector .Method__Pickup");
-  var mail_methodContainer = document.querySelector("MethodModal .Method__Selector .Method__Mail");
+  var mail_methodContainer = document.querySelector("#MethodModal .Method__Selector .Method__Mail");
   var local_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Local");
   var pickup_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Pickup");
   var mail_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Mail");
@@ -139,74 +139,75 @@
       openMethodModal();
     }
     else {
-      mainNav.style.display = 'none';
-      shippingNav.style.display = 'none';
-      mainNavMob.style.display = 'none';
-      shippingNavMob.style.display = 'none';
-      document.querySelectorAll('.header__wrapper .header__dropdown').forEach((el) => {
-        el.classList.add('active');
-      });
-      if (document.getElementById('template-product')) {
-        if (alertContainer && mthod == '3') {
-          alertContainer.style.display = 'block';
-          containerBtn.style.display = 'none';
-        }
-      }
-      document.querySelectorAll('[data-quick-add-label]').forEach((el) => {
-        el.querySelector('small:first-child').innerText = "quick add";
-      });
-      var method, data;
-      switch (localStorage.getItem("method")) {
-        case '1':
-          if (zapierContainer[1]) {
-            zapierContainer[1].click();
-            setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
-          }          
-          waitForInput();
-          mainNav.style.display = 'block';
-          mainNavMob.style.display = 'block';
-          method = M1T;
-          data = localStorage.getItem("postalcode");
-          inputPostalDropdown.value = data;
-          inputPostalDropdown.classList.add('active');
-          inputPostalDropdown.style.display = 'block';
-          break;
-        case '2':
-          mainNav.style.display = 'block';
-          mainNavMob.style.display = 'block';
-          method = M2T;
-          data = localStorage.getItem("postalcode");
-          if (zapierContainer[1]) {
-            zapierContainer[2].click();
-            setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
-          }          
-          waitForPickup();
-          break;
-        case '3':
-          if (zapierContainer[1]) {
-            zapierContainer[0].click();
-          }
-          shippingNav.style.display = 'block';
-          shippingNavMob.style.display = 'block';
-          document.querySelectorAll('[data-quick-add-label]').forEach( el => {
-            if (el.dataset.tag != "Shipping") {
-              el.querySelector('small:first-child').innerText = QAE;
-            }
-          });
-          method = "Delivery Method";
-          data = 'Shipping';
-          if (checkoutBtn) {
-            cartItems.forEach((el) => {
-              if (el.dataset.shipping != 1) {
-                // shipping_alert.style.display = 'block';
-                checkoutBtn.style.display = 'none';
-              }
-            });
-          }
-          break;
-      }
-      currentPostal.innerHTML = method + ": <span>" + data + "</span>";
-      stickHeader();
+			openMethodModal();
+      // mainNav.style.display = 'none';
+      // shippingNav.style.display = 'none';
+      // mainNavMob.style.display = 'none';
+      // shippingNavMob.style.display = 'none';
+      // document.querySelectorAll('.header__wrapper .header__dropdown').forEach((el) => {
+      //   el.classList.add('active');
+      // });
+      // if (document.getElementById('template-product')) {
+      //   if (alertContainer && mthod == '3') {
+      //     alertContainer.style.display = 'block';
+      //     containerBtn.style.display = 'none';
+      //   }
+      // }
+      // document.querySelectorAll('[data-quick-add-label]').forEach((el) => {
+      //   el.querySelector('small:first-child').innerText = "quick add";
+      // });
+      // var method, data;
+      // switch (localStorage.getItem("method")) {
+      //   case '1':
+      //     if (zapierContainer[1]) {
+      //       zapierContainer[1].click();
+      //       setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
+      //     }          
+      //     waitForInput();
+      //     mainNav.style.display = 'block';
+      //     mainNavMob.style.display = 'block';
+      //     method = M1T;
+      //     data = localStorage.getItem("postalcode");
+      //     inputPostalDropdown.value = data;
+      //     inputPostalDropdown.classList.add('active');
+      //     inputPostalDropdown.style.display = 'block';
+      //     break;
+      //   case '2':
+      //     mainNav.style.display = 'block';
+      //     mainNavMob.style.display = 'block';
+      //     method = M2T;
+      //     data = localStorage.getItem("postalcode");
+      //     if (zapierContainer[1]) {
+      //       zapierContainer[2].click();
+      //       setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
+      //     }          
+      //     waitForPickup();
+      //     break;
+      //   case '3':
+      //     if (zapierContainer[1]) {
+      //       zapierContainer[0].click();
+      //     }
+      //     shippingNav.style.display = 'block';
+      //     shippingNavMob.style.display = 'block';
+      //     document.querySelectorAll('[data-quick-add-label]').forEach( el => {
+      //       if (el.dataset.tag != "Shipping") {
+      //         el.querySelector('small:first-child').innerText = QAE;
+      //       }
+      //     });
+      //     method = "Delivery Method";
+      //     data = 'Shipping';
+      //     if (checkoutBtn) {
+      //       cartItems.forEach((el) => {
+      //         if (el.dataset.shipping != 1) {
+      //           // shipping_alert.style.display = 'block';
+      //           checkoutBtn.style.display = 'none';
+      //         }
+      //       });
+      //     }
+      //     break;
+      // }
+      // currentPostal.innerHTML = method + ": <span>" + data + "</span>";
+      // stickHeader();
     }
     
    	if (zapierContainer[0]) {
@@ -374,8 +375,8 @@
       }
     }
     
-    if (document.getElementById('method_confirm')) {
-      document.getElementById('method_confirm').onclick = () => {
+    if (document.getElementById('Method__Confirm')) {
+      document.getElementById('Method__Confirm').onclick = () => {
         document.querySelectorAll('.header__wrapper .header__dropdown').forEach((el) => {
           el.classList.add('active');
         });
@@ -403,10 +404,10 @@
             mainNavMob.style.display = 'block';
             var zip = dta.slice(0, 3);
             if (perishableZones.join(',').toLowerCase().split(',').indexOf(zip.toLowerCase()) == -1){
-              document.querySelector('.post_alert_p').style.display = 'block';
+              document.querySelector('.PostAlert').style.display = 'block';
               return;
             }
-            document.querySelector('.post_alert_p').style.display = 'none';
+            document.querySelector('.PostAlert').style.display = 'none';
             currentPostal.innerHTML = M1T + ": <span>" + dta + "</span>";
             if (alertContainer) {
               alertContainer.style.display = 'none';
@@ -519,7 +520,7 @@
         mail_methodContainer.classList.remove('active');
         pickup_methodContainer.classList.add('active');
         inputPostalModal.style.display = 'none';
-        document.querySelector('.post_alert_p').style.display = 'none';
+        document.querySelector('.PostAlert').style.display = 'none';
         localStorage.setItem("method", 2);
       }
     }
@@ -530,7 +531,7 @@
         mail_methodContainer.classList.add('active');
         pickup_methodContainer.classList.remove('active');
         inputPostalModal.style.display = 'none';
-        document.querySelector('.post_alert_p').style.display = 'none';
+        document.querySelector('.PostAlert').style.display = 'none';
         document.getElementById('address1').checked = false;
 		    document.getElementById('address2').checked = false;
         localStorage.setItem("method", 3);
