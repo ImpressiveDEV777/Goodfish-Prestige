@@ -582,5 +582,100 @@
         "info": "96 x 96px .png recommended"
       }
     ]
+  },
+  {
+    "name": "Delivery Method",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Delivery Method"
+      },
+      {
+        "type": "textarea",
+        "id": "postal_code",
+        "label": "Postal Codes"
+      },
+      {
+        "type": "header",
+        "content": "Modal Info"
+      },
+      {
+        "type": "text",
+        "id": "modal_title",
+        "label": "Modal Title",
+        "default": "Select delivery method"
+      },
+      {
+        "type": "text",
+        "id": "method1_title",
+        "label": "Method1 Title",
+        "default": "Local delivery"
+      },
+      {
+        "type": "text",
+        "id": "method1_detail",
+        "label": "Method1 Detail",
+        "default": "Lower Mainland"
+      },
+      {
+        "type": "text",
+        "id": "method1_error",
+        "label": "Method1 Error Message(Postal code)",
+        "default": "Sorry, your postal code is not in our delivery zone. Please choose another delivery method"
+      },
+      {
+        "type": "text",
+        "id": "method2_title",
+        "label": "Method2 Title",
+        "default": "Pickup In-Store"
+      },
+      {
+        "type": "text",
+        "id": "method2_detail1",
+        "label": "Method2_1 Detail",
+        "default": "3433 Commercial Street"
+      },
+      {
+        "type": "text",
+        "id": "method2_detail2",
+        "label": "Method2_2 Detail",
+        "default": "859 East Hastings"
+      },
+      {
+        "type": "text",
+        "id": "method3_title",
+        "label": "Method3 Title",
+        "default": "Ship Via Mail"
+      },
+      {
+        "type": "text",
+        "id": "method3_detail",
+        "label": "Method3 Detail"
+      },
+      {
+        "type": "text",
+        "id": "quick_error",
+        "label": "Quick Add Error Message",
+        "default": "Sorry we can’t ship this item via mail"
+      },
+      {
+        "type": "text",
+        "id": "modal_error",
+        "label": "Modal Close Error Message",
+        "default": "Please select a delivery method"
+      },
+      {
+        "type": "text",
+        "id": "shipping_error",
+        "label": "Shipping Error Message on PDP",
+        "default": "Sorry we can’t ship this item. Please select a different delivery method."
+      },
+      {
+        "type": "text",
+        "id": "shipping_only",
+        "label": "Shipping only text",
+        "default": "Some of the items in your cart are for pickup and delivery only"
+      }
+    ]
   }
 ]

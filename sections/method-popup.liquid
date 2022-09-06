@@ -1,0 +1,42 @@
+{%- if template contains 'product' or template contains 'collection' -%}
+  <div class="MethodModal__Container">
+    <div id="MethodModal">
+      <div class="MethodModal__Close">{% render 'icon' with 'close' %}</div>
+      <h6 class="type-heading-1 tc">{{ settings.modal_title }}:</h6><br>
+      <div class="Method__Selector">
+        <div class="Method__Local">
+          <h4>{{ settings.method1_title }}</h4>
+          ({{ settings.method1_detail }})
+          <input type="text" id="PostalCode" name="postalcode" value="" placeholder="Enter Postal Code">
+          <p class="Post__Alert">{{ settings.method1_error }}</p>
+        </div>
+        <div class="Mehod__Pickup">
+          <h4>{{ settings.method2_title }}</h4>
+          <p>
+            <input type="radio" id="address1" name="pickup_radio">
+            <label for="address1">({{ settings.method2_detail1 }})</label>
+            <br>
+            <input type="radio" id="address2" name="pickup_radio">
+            <label for="address2">({{ settings.method2_detail2 }})</label>
+          </p>
+        </div>
+        <div class="Method__Mail">
+          <h4>{{ settings.method3_title }}</h4>
+          {% if settings.method3_detail != blank %}
+          ({{ settings.method3_detail }})
+          {% endif %}
+        </div>
+      </div>
+      <button type="button" class="Button Button--primary Button--filled" id="Method__Confirm">CONFIRM</button>
+    </div>
+  </div>
+{%- endif -%}
+  
+{% schema %}
+  {
+    "name": "Method Modal",
+    "settings": [
+    ]
+  }
+{% endschema %}
+  
