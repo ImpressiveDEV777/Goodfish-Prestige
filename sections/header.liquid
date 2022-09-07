@@ -352,6 +352,48 @@ HEADER CONTENT
           </ul>
         </nav>
 
+        {% comment %}
+          This bar shows deliver method in header
+        {% endcomment %}
+        <div class="PostalcodeBar__Container"> 
+          <div class="Postalcode__Bar Heading"> 
+            <label id="Current__Postal">Delivery Method: </label>
+            <a id="Change__Postal"> (EDIT)</a>
+            
+            <div id="MethodDropdown">
+              <div class="MethodDropdown__Close">{% render 'icon' with 'close' %}</div>
+              <h2 class="Heading">{{ settings.modal_title }}:</h2><br>
+              <div class="Method__Selector">
+                <div class="Method__Local">
+                  <h4>{{ settings.method1_title }}</h4>
+                  ({{ settings.method1_detail }})
+                  <input type="text" id="Postalcode__Drop" name="postalcode_drop" value="" placeholder="Enter Postal Code">
+                  <p class="PostAlert__d">{{ settings.method1_error }}</p>
+                </div>
+                <div class="Method__Pickup">
+                  <h4>{{ settings.method2_title }}</h4>
+                  
+                  <p>
+                    <input type="radio" id="address3" name="pickup_radio">
+                    <label for="address3">({{ settings.method2_detail1 }})</label>
+                    <br>
+                    <input type="radio" id="address4" name="pickup_radio">
+                    <label for="address4">({{ settings.method2_detail2 }})</label>
+                    
+                  </p>
+                </div>
+                <div class="Method__Mail">
+                  <h4>{{ settings.method3_title }}</h4>
+                  {% if settings.method3_detail != blank %}
+                    ({{ settings.method3_detail }})
+                  {% endif %}
+                </div>
+              </div>
+              <button type="button" class="Button Button--primary Button--filled" id="MethodDropdown__Confirm">CONFIRM</button>
+            </div>
+          </div>
+        </div>
+
         {{- localization_form -}}
       {%- endunless -%}
     </div>

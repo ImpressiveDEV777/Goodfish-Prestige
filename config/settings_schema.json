@@ -593,7 +593,8 @@
       {
         "type": "textarea",
         "id": "postal_code",
-        "label": "Postal Codes"
+        "label": "Postal Codes",
+        "default": "V6A,V6B,V6C,V6E,V6Z,V6G,V6T,V6R,V6K,V6J,V6H,V6S,V6L,V6N,V6M,V6P"
       },
       {
         "type": "header",

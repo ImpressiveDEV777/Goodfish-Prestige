@@ -433,6 +433,14 @@
               </div>
             </div>
           {%- endif -%}
+
+          {% unless product.tags contains 'shipping' %}
+            <div class="DeliveryAlert__Container">
+              <p class="Alert__Message">{{ settings.shipping_error }}</p>
+              <button class="Button Button--primary Button--filled" id="Change__Code">CHANGE DELIVERY METHOD</button>
+            </div>
+          {% endunless %}
+
         </div>
       </div>
     </div>

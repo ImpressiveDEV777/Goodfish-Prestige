@@ -804,11 +804,12 @@ p {
 }
 
 .Method__Selector > div.active {
-  background: var(--header-border-color);
+  background-color: var(--header-border-color);
 }
 
-#MethodModal #Method__Confirm {
-  filter: invert(1);
+#MethodModal #Method__Confirm, #MethodDropdown #MethodDropdown__Confirm {
+  border-color: #f3f3ee;
+  background-color: #f3f3ee;
   margin-top: 2em;
 }
 
@@ -822,7 +823,7 @@ p {
   margin-top: 10px;
 }
 
-#MethodModal .PostAlert, #MethodDropdown .PostAlert {
+#MethodModal .PostAlert, #MethodDropdown .PostAlert__d {
   color: red;
   margin-top: 0;
   display: none;
@@ -905,4 +906,85 @@ p {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+.PostalcodeBar__Container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 1.5em 1.5em 0;
+}
+
+.Postalcode__Bar.active {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+}
+  
+.Postalcode__Bar {  
+  position: relative;
+  transition: all .25s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 12px;
+  padding: 5px var(--outer) 8px;
+  display: none;
+  justify-content: flex-end;
+  --bg: var(---color-header-bg);
+  background-color: var(--bg);  
+}
+
+#Change__Postal {
+  font-family: var(---font-stack-nav);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#MethodDropdown.active {  
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+#MethodDropdown {
+  z-index: 111;
+  transition: all 0.25s ease-in-out;
+  transform: translateY(-100px);
+  position: absolute;
+  top: 41px;
+  width: 400px;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: var(--header-background);
+  padding: 3em;
+}
+
+#MethodDropdown .Method__Selector > div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#MethodDropdown .Method__Selector h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.Alert__Message {
+  margin: 0 0 20px;
+}
+  
+.DeliveryAlert__Container {
+  background-color: var(--header-background);
+  padding: 1em;
+  display: none;
+  color:#f3f3ee;
+  text-align: center;
+}
+
+#Change__Code {
+  font-size: unset;
+  border-color: #f3f3ee;
+  background-color: #f3f3ee;
 }
