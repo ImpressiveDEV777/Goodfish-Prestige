@@ -968,3 +968,36 @@ p {
   border-color: #f3f3ee;
   background-color: #f3f3ee;
 }
+
+@media screen and (max-width: 1200px) {
+  #MethodModal #Method__Confirm {
+    margin: 0;
+    min-width: unset;
+  }
+  #MethodModal {
+    width: 350px;
+  }
+  .MethodModal__Container .Method__Selector {
+    flex-direction: column;
+  }
+  .MethodModal__Container .Method__Selector > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .PostalcodeBar__Container {
+    padding: 0.5em;
+  }
+  #MethodDropdown {
+    top: 27px;
+    width: 350px;
+    right: -7px;
+  }
+  .MethodModal__Container {
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+}
