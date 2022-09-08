@@ -598,7 +598,7 @@
       },
       {
         "type": "header",
-        "content": "Modal Info"
+        "content": "Delivery Method Info"
       },
       {
         "type": "text",
@@ -633,13 +633,13 @@
       {
         "type": "text",
         "id": "method2_detail1",
-        "label": "Method2_1 Detail",
+        "label": "Store Address1",
         "default": "3433 Commercial Street"
       },
       {
         "type": "text",
         "id": "method2_detail2",
-        "label": "Method2_2 Detail",
+        "label": "Store Address2",
         "default": "859 East Hastings"
       },
       {

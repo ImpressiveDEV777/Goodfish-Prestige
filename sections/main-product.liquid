@@ -425,6 +425,13 @@
             {%- endunless -%}
           {%- endform -%}
 
+          {% unless product.tags contains 'shipping' %}
+            <div class="DeliveryAlert__Container">
+              <p class="Alert__Message">{{ settings.shipping_error }}</p>
+              <button class="Button Button--primary Button--filled" id="Change__Code">CHANGE DELIVERY METHOD</button>
+            </div>
+          {% endunless %}
+
           {%- if section.settings.stack_images and product_aside != blank and media_count > 0 -%}
             <div class="Product__QuickNav hidden-pocket">
               <div class="Product__QuickNavWrapper">
@@ -433,13 +440,6 @@
               </div>
             </div>
           {%- endif -%}
-
-          {% unless product.tags contains 'shipping' %}
-            <div class="DeliveryAlert__Container">
-              <p class="Alert__Message">{{ settings.shipping_error }}</p>
-              <button class="Button Button--primary Button--filled" id="Change__Code">CHANGE DELIVERY METHOD</button>
-            </div>
-          {% endunless %}
 
         </div>
       </div>

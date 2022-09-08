@@ -833,22 +833,14 @@ p {
   text-align: left;
 }
 
-#MethodDropdown [type="radio"]:checked,
-#MethodDropdown [type="radio"]:not(:checked),
-#MethodModal [type="radio"]:checked,
-#MethodModal [type="radio"]:not(:checked),
 #storePickupApp [type="radio"]:checked,
-#storePickupApp [type="radio"]:not(:checked){
+#storePickupApp [type="radio"]:not(:checked) {
   position: absolute;
   left: -9999px;
 }
 
 [type="radio"]:checked + span,
-[type="radio"]:not(:checked) + span,  
-#MethodDropdown [type="radio"]:checked + label,
-#MethodDropdown [type="radio"]:not(:checked) + label,
-#MethodModal [type="radio"]:checked + label,
-#MethodModal [type="radio"]:not(:checked) + label{
+[type="radio"]:not(:checked) + span {
   position: relative;
   padding-left: 18px;
   cursor: pointer;
@@ -858,11 +850,7 @@ p {
 }
 
 [type="radio"]:checked + span:before,
-[type="radio"]:not(:checked) + span:before,
-#MethodDropdown [type="radio"]:checked + label:before,
-#MethodDropdown [type="radio"]:not(:checked) + label:before,
-#MethodModal [type="radio"]:checked + label:before,
-#MethodModal [type="radio"]:not(:checked) + label:before {
+[type="radio"]:not(:checked) + span:before {
   content: '';
   position: absolute;
   left: 0;
@@ -875,11 +863,7 @@ p {
 }
   
 [type="radio"]:checked + span:after,
-[type="radio"]:not(:checked) + span:after,
-#MethodModal [type="radio"]:checked + label:after,
-#MethodModal [type="radio"]:not(:checked) + label:after,
-#MethodDropdown [type="radio"]:checked + label:after,
-#MethodDropdown [type="radio"]:not(:checked) + label:after {
+[type="radio"]:not(:checked) + span:after {
   background: var(--header-border-color);
   content: '';
   width: 8px;
@@ -892,16 +876,12 @@ p {
   transition: all 0.2s ease;
 }
   
-#MethodModal [type="radio"]:not(:checked) + label:after, 
-#MethodDropdown [type="radio"]:not(:checked) + label:after, 
 [type="radio"]:not(:checked) + span:after {
   opacity: 0;
   -webkit-transform: scale(0);
   transform: scale(0);
 }
   
-#MethodModal [type="radio"]:checked + label:after,  
-#MethodDropdown [type="radio"]:checked + label:after, 
 [type="radio"]:checked + span:after {
   opacity: 1;
   -webkit-transform: scale(1);
