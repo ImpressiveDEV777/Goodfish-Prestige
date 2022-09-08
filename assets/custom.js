@@ -84,7 +84,7 @@
   var local_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Local");
   var pickup_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Pickup");
   var mail_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Mail");
-	var alertContainer = document.querySelector('#MethodDropdown .PostAlert__d');
+	var alertMethod = document.querySelector('#MethodDropdown .PostAlert__d');
   var inputPostalModal = document.getElementById('Postalcode');
   var inputPostalDropdown = document.getElementById('Postalcode__Drop');
 	var dataContainer = document.querySelector('.Method__Data');
@@ -95,12 +95,15 @@
 	methodDropdownContainer.querySelector('h2').innerHTML = dataContainer.dataset.mt;
 	local_methodContainerDrop.querySelector('h4').innerHTML = M1T;
 	local_methodContainerDrop.querySelector('span').innerHTML = '(' + dataContainer.dataset.m1d + ')';
+	alertMethod.innerHTML = dataContainer.dataset.m1em;
 	pickup_methodContainerDrop.querySelector('h4').innerHTML = M2T;
 	pickup_methodContainerDrop.querySelector('[data-m2d1]').innerHTML = '(' + dataContainer.dataset.m2d1 + ')';
 	pickup_methodContainerDrop.querySelector('[data-m2d2]').innerHTML = '(' + dataContainer.dataset.m2d2 + ')';
 	mail_methodContainerDrop.querySelector('h4').innerHTML = dataContainer.dataset.m3t;
-	alertContainer.innerHTML = dataContainer.dataset.m1em;
 	// mail_methodContainerDrop.querySelector('span').innerText = dataContainer.dataset.m3d;
+	if (alertContainer) {
+		alertContainer.querySelector('.Alert__Message').innerHTML = dataContainer.dataset.se;
+	}
   
   // window.onresize = () => {
   //   if (localStorage.getItem('method')) {
@@ -169,14 +172,14 @@
         
         switch (mthd) {
           case '1':
-            localStorage.setItem('postalcode', inputPostalDropdown.value);
-            dtad = localStorage.getItem('postalcode');
+            dtad = inputPostalDropdown.value;
             var zip = dtad.slice(0, 3);
             if (perishableZones.join(',').toLowerCase().split(',').indexOf(zip.toLowerCase()) == -1){
-              alertContainer.style.display = 'block';
+              alertMethod.style.display = 'block';
               return;
             }
-            alertContainer.style.display = 'none';
+            localStorage.setItem('postalcode', dtad);
+            alertMethod.style.display = 'none';
             currentPostal.innerHTML = M1T + ": <span>" + dtad + "</span>";
             if (alertContainer) {
               alertContainer.style.display = 'none';
@@ -190,6 +193,7 @@
             // }
             break;
           case '2':
+						localStorage.setItem("postalcode", M2T);
             methodDropdownContainer.classList.remove('active');
             if (alertContainer) {
               alertContainer.style.display = 'none';
@@ -303,7 +307,7 @@
         mail_methodContainerDrop.classList.remove('active');
         pickup_methodContainerDrop.classList.add('active');
         inputPostalDropdown.classList.add('active');
-        alertContainer.style.display = 'none';
+        alertMethod.style.display = 'none';
         localStorage.setItem("method", 2);
       }
     }
@@ -313,7 +317,7 @@
         local_methodContainerDrop.classList.remove('active');
         pickup_methodContainerDrop.classList.remove('active');
         mail_methodContainerDrop.classList.add('active');
-        alertContainer.style.display = 'none';
+        alertMethod.style.display = 'none';
         inputPostalDropdown.classList.add('active');
         localStorage.setItem("method", 3);
       }
