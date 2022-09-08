@@ -189,10 +189,7 @@
     {%- assign classes = classes | append: ' features--show-element-staggering' -%}
   {%- endif -%}
 
-  <body class="prestige--v4 {{ classes }} {% if template.directory %}template-{{ template.directory | handle }}{% endif %} template-{{ template.name | handle }}"
-        data-local-delivery-zones="{{ settings.postal_code }}" data-MT="{{ settings.modal_title }}" data-M1T="{{ settings.method1_title }}" data-M1D="{{ settings.method1_detail }}"
-        data-M1EM="{{ settings.method1_error }}" data-M2T="{{ settings.method2_title }}" data-M2D1="{{ settings.method2_detail1 }}" data-M2D2="{{ settings.method2_detail2 }}"
-        data-M3T="{{ settings.method3_title }}" data-M3D="{{ settings.method3_detail }}" data-QAE="{{ settings.quick_error }}" data-MSA="{{ settings.modal_error }}">
+  <body class="prestige--v4 {{ classes }} {% if template.directory %}template-{{ template.directory | handle }}{% endif %} template-{{ template.name | handle }}">
     {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
     <svg class="u-visually-hidden">
       <linearGradient id="rating-star-gradient-half">

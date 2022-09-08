@@ -71,7 +71,7 @@
 	//const first_section = d.getElementById('shopify-section-template--15268170924228__163952370021aefa00');
 
 	// Method stuff goes below
-	var perishableZones = document.getElementsByTagName('body')[0].dataset.localDeliveryZones.split(',');
+	var perishableZones = document.querySelector('.Method__Data').dataset.localDeliveryZones.split(',');
 
   var currentPostal = document.getElementById('Current__Postal');
   var containerBtn = document.querySelector('.ProductForm__BuyButtons .ProductForm__AddToCart');
@@ -84,18 +84,29 @@
   var local_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Local");
   var pickup_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Pickup");
   var mail_methodContainerDrop = document.querySelector("#MethodDropdown .Method__Selector .Method__Mail");
+	var alertContainer = document.querySelector('#MethodDropdown .PostAlert__d');
   var inputPostalModal = document.getElementById('Postalcode');
   var inputPostalDropdown = document.getElementById('Postalcode__Drop');
-  var M1T = document.querySelector('body').dataset.m1t;
-  var M2T = document.querySelector('body').dataset.m2t;
-  var QAE = document.querySelector('body').dataset.qae;
-  var MSA = document.querySelector('body').dataset.msa;
+	var dataContainer = document.querySelector('.Method__Data');
+  var M1T = dataContainer.dataset.m1t;
+  var M2T = dataContainer.dataset.m2t;
+  var MSA = dataContainer.dataset.msa;
+
+	methodDropdownContainer.querySelector('h2').innerHTML = dataContainer.dataset.mt;
+	local_methodContainerDrop.querySelector('h4').innerHTML = M1T;
+	local_methodContainerDrop.querySelector('span').innerHTML = '(' + dataContainer.dataset.m1d + ')';
+	pickup_methodContainerDrop.querySelector('h4').innerHTML = M2T;
+	pickup_methodContainerDrop.querySelector('[data-m2d1]').innerHTML = '(' + dataContainer.dataset.m2d1 + ')';
+	pickup_methodContainerDrop.querySelector('[data-m2d2]').innerHTML = '(' + dataContainer.dataset.m2d2 + ')';
+	mail_methodContainerDrop.querySelector('h4').innerHTML = dataContainer.dataset.m3t;
+	alertContainer.innerHTML = dataContainer.dataset.m1em;
+	// mail_methodContainerDrop.querySelector('span').innerText = dataContainer.dataset.m3d;
   
-  window.onresize = () => {
-    if (localStorage.getItem('method')) {
-      document.getElementById('MainContent').style.marginTop = '0';
-    }
-  }
+  // window.onresize = () => {
+  //   if (localStorage.getItem('method')) {
+  //     document.getElementById('MainContent').style.marginTop = '0';
+  //   }
+  // }
   
   window.onload = function() {
     var mthod = localStorage.getItem("method");
@@ -162,10 +173,10 @@
             dtad = localStorage.getItem('postalcode');
             var zip = dtad.slice(0, 3);
             if (perishableZones.join(',').toLowerCase().split(',').indexOf(zip.toLowerCase()) == -1){
-              document.querySelector('.PostAlert__d').style.display = 'block';
+              alertContainer.style.display = 'block';
               return;
             }
-            document.querySelector('.PostAlert__d').style.display = 'none';
+            alertContainer.style.display = 'none';
             currentPostal.innerHTML = M1T + ": <span>" + dtad + "</span>";
             if (alertContainer) {
               alertContainer.style.display = 'none';
@@ -292,7 +303,7 @@
         mail_methodContainerDrop.classList.remove('active');
         pickup_methodContainerDrop.classList.add('active');
         inputPostalDropdown.classList.add('active');
-        document.querySelector('.PostAlert__d').style.display = 'none';
+        alertContainer.style.display = 'none';
         localStorage.setItem("method", 2);
       }
     }
@@ -302,7 +313,7 @@
         local_methodContainerDrop.classList.remove('active');
         pickup_methodContainerDrop.classList.remove('active');
         mail_methodContainerDrop.classList.add('active');
-        document.querySelector('.PostAlert__d').style.display = 'none';
+        alertContainer.style.display = 'none';
         inputPostalDropdown.classList.add('active');
         localStorage.setItem("method", 3);
       }

@@ -362,24 +362,23 @@ HEADER CONTENT
             
             <div id="MethodDropdown">
               <div class="MethodDropdown__Close">{% render 'icon' with 'close' %}</div>
-              <h2 class="Heading">{{ settings.modal_title }}:</h2><br>
+              <h2 class="Heading"></h2><br>
               <div class="Method__Selector">
                 <div class="Method__Local">
-                  <h4>{{ settings.method1_title }}</h4>
-                  ({{ settings.method1_detail }})
+                  <h4></h4>
+                  <span></span>
                   <input type="text" id="Postalcode__Drop" name="postalcode_drop" value="" placeholder="Enter Postal Code">
                   <p class="PostAlert__d">{{ settings.method1_error }}</p>
                 </div>
                 <div class="Method__Pickup">
-                  <h4>{{ settings.method2_title }}</h4>
-                  ({{ settings.method2_detail1 }})
-                  <br>
-                  ({{ settings.method2_detail2 }})
+                  <h4></h4>
+                  <span data-m2d1></span>
+                  <span data-m2d2></span>
                 </div>
                 <div class="Method__Mail">
-                  <h4>{{ settings.method3_title }}</h4>
+                  <h4></h4>
                   {% if settings.method3_detail != blank %}
-                    ({{ settings.method3_detail }})
+                    <span>({{ settings.method3_detail }})</span>
                   {% endif %}
                 </div>
               </div>
