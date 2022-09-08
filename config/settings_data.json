@@ -43,6 +43,9 @@
     "social_twitter": "https:\/\/twitter.com\/GoodFish_Co",
     "social_instagram": "https:\/\/www.instagram.com\/goodfish.co",
     "social_tiktok": "https:\/\/www.tiktok.com\/@goodfish.co",
+    "postal_code": "V6A,V6B,V6C,V6E,V6Z,V6G,V6T,V6R,V6K,V6J,V6H,V6S,V6L,V6N,V6M,V6P,V6X,V6Y,V6V,V6W,V7A,V7E,V7C,V7B,V7V,V7T,V7R,V7P,V7M,V7N,V7K,V7L,V7J,V7H,V7G,V7W,V5Z,V5Y,V5T,V5V,V5W,V5X,V5L,V5N,V5P,V5K,V5M,V5R,V5S,V5C,V5G,V5H,V5J,V5B,V5A,V5E,V3M,V3N,V3L,V3K,V3J,V3H,V3E,V3B,V3C,V3Y,V3V,V3W,V3X,V3T,V3R,V3S,V3A,V4C,V4E,V4N,V4R,V2X,V2Y,V2W,V1M,V0M,V4K,V4G,V4M,V4L,V3Z,V4P,V4A,V4B,V4W,V2Z",
+    "method2_detail1": "Lower Mainland, Sea-To-Sky, Vancouver Island",
+    "method2_detail2": "",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#f3f3ee",
@@ -207,6 +210,11 @@
           "ba10929b-9fff-4f31-8999-ce74f7475e6f",
           "7e3c653e-b2ef-4189-a5fd-6641fd6563d3"
         ],
+        "settings": {
+        }
+      },
+      "method-popup": {
+        "type": "method-popup",
         "settings": {
         }
       }
