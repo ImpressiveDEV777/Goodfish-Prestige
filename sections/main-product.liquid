@@ -391,11 +391,6 @@
                       {{ form | payment_button }}
                     {%- endif -%}
 
-                    {% if product.tags contains 'local' %}
-                    <div class="local-message">
-                    <p><small>This product is available for local pickup and delivery only.</small></p>
-                    </div>
-                  {% endif %}
                   </div>
 
                 {%- when 'store_pickup' -%}
