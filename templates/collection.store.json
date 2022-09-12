@@ -90,7 +90,7 @@
         "show_product_info": true,
         "show_vendor": false,
         "show_color_swatch": false,
-        "grid_mobile_items_per_row": "2",
+        "grid_mobile_items_per_row": "1",
         "grid_desktop_items_per_row": 4
       }
     },
@@ -141,7 +141,7 @@
         "show_product_info": true,
         "show_vendor": false,
         "show_color_swatch": false,
-        "grid_mobile_items_per_row": "2",
+        "grid_mobile_items_per_row": "1",
         "grid_desktop_items_per_row": 4
       }
     }
