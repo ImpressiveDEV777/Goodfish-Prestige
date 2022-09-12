@@ -543,19 +543,6 @@ p {
   color: var(--text-color) !important;
 }
 
-/* Store/Collections Page */
-.Rte .shop-main-nav {
-  display: flex;
-  justify-content: center;
-}
-.Rte .shop-main-nav h2 {
-  margin: 0 2em;
-}
-.Rte .shop-main-nav h2 a:not(button) {
-  color: var(--heading-color);
-  text-decoration: none;
-}
-
 /* Product page */
 .Product__Gallery {
   margin-top: 4em;
