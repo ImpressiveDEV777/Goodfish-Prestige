@@ -549,7 +549,7 @@ p {
   justify-content: center;
 }
 .Rte .shop-main-nav h2 {
-  margin: 0 2em;
+  margin: 0 1em;
 }
 .Rte .shop-main-nav h2 a:not(button) {
   color: var(--heading-color);
