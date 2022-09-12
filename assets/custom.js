@@ -89,7 +89,7 @@
   var inputPostalDropdown = document.getElementById('Postalcode__Drop');
 	var dataContainer = document.querySelector('.Method__Data');
   var checkoutBtn = document.querySelector('.Cart__Checkout');
-  var cartItems = document.querySelector('.Cart__ItemList .CartItem');
+  var cartItems = document.querySelectorAll('.Cart__ItemList .CartItem');
   var M1T = dataContainer.dataset.m1t;
   var M2T = dataContainer.dataset.m2t;
   var MSA = dataContainer.dataset.msa;
