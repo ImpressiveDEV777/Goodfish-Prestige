@@ -643,28 +643,6 @@ p {
 	}
 }
 
-/* Store/Collections Page */
-
-.Rte .shop-main-nav {
-  display: flex;
-  justify-content: center;
-    h2 {
-      margin: 0 2em;
-    a:not(button) {
-      color: var(--heading-color);
-      text-decoration: none;
-    }
-  }
-}
-@media screen and (max-width: 641px) {
-  .Rte .shop-main-nav {
-    flex-direction: column;
-    h2{
-      margin: 0.5em 1em;
-    }
-  }
-}
-
 /* Product page */
 
 .Product__Gallery {
