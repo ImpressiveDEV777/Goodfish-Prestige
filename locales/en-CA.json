@@ -385,7 +385,7 @@
         "optional_last_name_label": "Your last name (optional)",
         "last_name_placeholder": "Your last name",
         "optional_last_name_placeholder": "Your last name (optional)",
-        "shipping_address_title": "Pickup address"
+        "shipping_address_title": "Address Information"
       },
       "general": {
         "continue_to_shipping_method": "Continue",
@@ -400,7 +400,7 @@
       "shipping_title": "Store Pickup",
       "review": {
         "blocks": {
-          "shipping_address_title": "Pickup address"
+          "shipping_address_title": "Address Information"
         }
       },
       "payment": {

@@ -369,10 +369,18 @@
         "continue_to_shipping_method": "Continue to delivery methods",
         "back_to_shipping_method": "Return to delivery method",
         "edit_shipping_address": "Edit delivery address",
-        "edit_shipping_method": "Edit delivery method"
+        "edit_shipping_method": "Edit delivery method",
+        "tips": {
+          "description": "Add a tip for your delivery driver",
+          "title": "Driver tip"
+        }
       },
       "contact": {
-        "shipping_address_title": "Delivery address"
+        "shipping_address_title": "Delivery address",
+        "optional_phone_label": "Your phone number (optional)",
+        "optional_phone_placeholder": "Your phone number (optional)",
+        "phone_label": "Your phone number",
+        "phone_placeholder": "Your phone number"
       },
       "order_summary": {
         "free_shipping_discount_label": "Free delivery",
@@ -420,7 +428,7 @@
         "delivered_description_html": "Your order has been delivered to the address you provided. If you haven't received it, or if you have any other problems, please {{ contact_us }}.",
         "delivered_title": "Your order has been delivered",
         "attempted_delivery_description_html": "An attempt was made to deliver your order but it was unsuccessful. Please {{ contact_us }} to arrange another delivery attempt.",
-        "attempted_delivery_title": "An attempt was made to delivery your order",
+        "attempted_delivery_title": "An attempt was made to deliver your order",
         "out_for_delivery_description_html": "Your order is on the delivery truck - expect it to arrive today. If you still haven't received it in the next 2 days, please {{ contact_us }}.",
         "out_for_delivery_title": "Your order is out for delivery",
         "in_transit_description": "Come back to this page for updates on your delivery status.",
