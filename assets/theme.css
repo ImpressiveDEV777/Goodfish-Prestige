@@ -1051,12 +1051,16 @@ body:not(.is-tabbing) textarea:focus {
 */
 .FlexboxIeFix {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 641px) {
   .Container {
     padding: 0 50px;
+  }
+  .FlexboxIeFix {
+    display: flex;
+    flex-direction: row;
   }
 }
 
