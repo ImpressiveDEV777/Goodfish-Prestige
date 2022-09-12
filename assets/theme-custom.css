@@ -98,7 +98,7 @@ p {
   color: var(--button-background);
   border-color: var(--button-background);
 }
-@media screen and (max-width: 641px) {
+@media screen and (min-width: 641px) {
   .Button {
     min-width: 280px;
   }
