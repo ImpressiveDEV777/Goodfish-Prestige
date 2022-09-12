@@ -98,8 +98,8 @@ p {
   color: var(--button-background);
   border-color: var(--button-background);
 }
-@media screen and (min-width: 641px) {
-  .Button {
+@media screen and (max-width: 641px) {
+  .Button:not(.Footer__Newsletter .Button) {
     min-width: 280px;
   }
 }
