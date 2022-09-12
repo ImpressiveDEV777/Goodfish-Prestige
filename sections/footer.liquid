@@ -12,7 +12,7 @@
                 {%- endif -%}
 				
                 {%- if block.settings.logo_image != blank -%}
-                  <div class="Footer__Logo">
+                  <div class="Footer__Logo Text--alignCenter">
 					  <img class="Footer__LogoImage Footer__LogoImage--primary"
                	   		src="{{ block.settings.logo_image | img_url: 'large' }}"
                			alt="{{ block.settings.logo_image.alt | default: shop.name | escape }}"
@@ -30,6 +30,7 @@
 
                 {%- if block.settings.show_social_media -%}
                   {% render 'social-media', class: 'Footer__Social', spacing: 'loose' %}
+                  <p class="Text--alignCenter" style="margin-top: 30px"><img src="{{ 'buyBC_Logo_Horiz_White.png' | file_img_url: '120x' }}""</p>
                 {%- endif -%}
 
               {%- when 'links' -%}
