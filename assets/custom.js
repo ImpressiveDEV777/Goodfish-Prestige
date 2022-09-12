@@ -88,6 +88,8 @@
   var inputPostalModal = document.getElementById('Postalcode');
   var inputPostalDropdown = document.getElementById('Postalcode__Drop');
 	var dataContainer = document.querySelector('.Method__Data');
+  var checkoutBtn = document.querySelector('.Cart__Checkout');
+  var cartItems = document.querySelector('.Cart__ItemList .CartItem');
   var M1T = dataContainer.dataset.m1t;
   var M2T = dataContainer.dataset.m2t;
   var MSA = dataContainer.dataset.msa;
@@ -143,14 +145,13 @@
         case '3':
           method = "Delivery Method";
           data = 'Shipping';
-          // if (checkoutBtn) {
-          //   cartItems.forEach((el) => {
-          //     if (el.dataset.shipping != 1) {
-          //       // shipping_alert.style.display = 'block';
-          //       checkoutBtn.style.display = 'none';
-          //     }
-          //   });
-          // }
+          if (checkoutBtn) {
+            cartItems.forEach((el) => {
+              if (el.dataset.shipping != 1) {
+                checkoutBtn.style.display = 'none';
+              }
+            });
+          }
           break;
       }
       currentPostal.innerHTML = method + ": <span>" + data + "</span>";
@@ -187,10 +188,9 @@
             }
             stickHeader();
             methodDropdownContainer.classList.remove('active');
-            // if (checkoutBtn) {
-            //   // shipping_alert.style.display = 'none';
-            //   checkoutBtn.style.display = 'block';
-            // }
+            if (checkoutBtn) {
+              checkoutBtn.style.display = 'block';
+            }
             break;
           case '2':
 						localStorage.setItem("postalcode", M2T);
@@ -201,10 +201,9 @@
             }
             currentPostal.innerHTML = "Delivery Method: <span>" + M2T + "</span>";
             stickHeader();
-            // if (checkoutBtn) {
-            //   // shipping_alert.style.display = 'none';
-            //   checkoutBtn.style.display = 'block';
-            // }
+            if (checkoutBtn) {
+              checkoutBtn.style.display = 'block';
+            }
             break;
           case '3':
             localStorage.setItem("postalcode", "Shipping");
@@ -220,15 +219,13 @@
               containerBtn.style.display = 'none';  
             }
             stickHeader();
-            // if (checkoutBtn) {
-            //   cartItems = document.querySelectorAll('.cart__items .cart-item');
-            //   cartItems.forEach((el) => {
-            //     if (el.dataset.shipping != 1) {
-            //       // shipping_alert.style.display = 'block';
-            //       checkoutBtn.style.display = 'none';
-            //     }
-            //   });
-            // }
+            if (checkoutBtn) {
+              cartItems.forEach((el) => {
+                if (el.dataset.shipping != 1) {
+                  checkoutBtn.style.display = 'none';
+                }
+              });
+            }
             break;
         }
       }
@@ -241,10 +238,10 @@
           alert(MSA);
           return;
         }
-        var dta = localStorage.getItem('postalcode');
         switch (mth) {
           case '1':
-            localStorage.setItem('postalcode', document.querySelector('#MethodModal #Postalcode').value);
+            var dta = document.querySelector('#MethodModal #Postalcode').value;
+            localStorage.setItem('postalcode', dta);
             var zip = dta.slice(0, 3);
             if (perishableZones.join(',').toLowerCase().split(',').indexOf(zip.toLowerCase()) == -1){
               document.querySelector('.PostAlert').style.display = 'block';
