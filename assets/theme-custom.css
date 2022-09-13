@@ -445,14 +445,10 @@ p {
   text-transform: uppercase;
   margin-bottom: 0;
   letter-spacing: 2px;
+  height: 13px;
 }
 .ProductType_Info .ProductCertification_Info p:last-child {
   border-left: 1px solid var(--text-color);
-}
-
-.ProductCertification_1,
-.ProductCertification_2{
-  margin: 0 5px;
 }
 
 .features--heading-uppercase .ProductItem__PriceList,
