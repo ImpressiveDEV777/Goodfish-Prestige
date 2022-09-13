@@ -395,9 +395,9 @@
       },
       "order_summary": {
         "free_shipping_discount_label": "Free pickup",
-        "shipping_label": "Address"
+        "shipping_label": "Store Pickup"
       },
-      "shipping_title": "Address",
+      "shipping_title": "Store Pickup",
       "review": {
         "blocks": {
           "shipping_address_title": "Address Information"
