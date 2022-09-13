@@ -1006,3 +1006,17 @@ p {
     top: 0;
   }
 }
+
+.Cart__Recap #storePickupApp .checkoutMethod.active, .Cart__Recap #storePickupApp .location.active {
+    background: transparent!important;
+}
+
+#storePickupApp .checkoutMethodsContainer {
+    align-items: center;
+    align-items: stretch;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    max-width: 300px;
+    margin-left: auto;
+}
