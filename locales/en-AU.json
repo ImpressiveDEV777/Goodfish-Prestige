@@ -394,8 +394,8 @@
         }
       },
       "shipping": {
-        "title": "Delivery method",
-        "shipping_method_title": "Delivery method",
+        "title": "Local Delivery",
+        "shipping_method_title": "Local Delivery",
         "waiting_on_rate_notice": "Please wait while we fetch available delivery rates...",
         "no_rates_for_cart_or_destination_notice": "There are no delivery methods available for your cart or destination.",
         "no_rates_for_country_notice": "We do not offer delivery to {{country}}.",
