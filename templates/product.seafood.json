@@ -61,7 +61,7 @@
           "type": "content",
           "settings": {
             "title": "Sustainable Packaging",
-            "content": "<p>-<\/p>",
+            "content": "<p>Global Sustainable Packaging text goes here. Mark a product as either true or false for the metafield.<\/p>",
             "page": "",
             "content_position": "left"
           }
