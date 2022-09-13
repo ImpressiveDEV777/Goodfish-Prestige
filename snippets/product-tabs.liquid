@@ -1,7 +1,20 @@
 {%- capture product_tabs -%}
   {%- for block in section.blocks -%}
+
+    {% assign sustainable_packaging_tab = false %}
+    {% assign has_sustainable_packaging = false %}
+    
+    {% if block.settings.title == 'Sustainable Packaging' %}
+      {% assign sustainable_packaging_tab = true %}
+    {% endif %}
+    
+    {% if product.metafields.custom.sustainable_packaging %}
+      {% assign has_sustainable_packaging = true %}
+    {% endif %}
+    
     {%- case block.type -%}
       {%- when 'content' -%}
+      {% unless  sustainable_packaging_tab == true and has_sustainable_packaging == false %}
         {%- if block.settings.page != blank -%}
           {%- assign title = block.settings.page.title -%}
           {%- assign content = block.settings.page.content -%}
@@ -25,6 +38,7 @@
             </div>
           </div>
         {%- endif -%}
+      {% endunless %}
 
       {%- when 'reviews' -%}
         <div class="Collapsible Collapsible--large" {{ block.shopify_attributes }}>
