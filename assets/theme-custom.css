@@ -444,7 +444,7 @@ p {
   text-transform: uppercase;
   margin-bottom: 0;
   letter-spacing: 2px;
-  height: 13px;
+  height: 17px;
 }
 .ProductType_Info .ProductCertification_Info p:last-child {
   border-left: 1px solid var(--text-color);
