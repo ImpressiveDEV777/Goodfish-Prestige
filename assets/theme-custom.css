@@ -441,7 +441,6 @@ p {
   margin-left: 1em;
   padding-left: 1em;
   color: var(--text-color);
-  font-family: var(--text-font-family);
   text-transform: uppercase;
   margin-bottom: 0;
   letter-spacing: 2px;
