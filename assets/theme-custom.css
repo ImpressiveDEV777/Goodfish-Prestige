@@ -450,6 +450,11 @@ p {
   border-left: 1px solid var(--text-color);
 }
 
+.ProductCertification_1,
+.ProductCertification_2{
+  margin: 0 5px;
+}
+
 .features--heading-uppercase .ProductItem__PriceList,
 .ProductMeta__Price {
   font-family: var(--text-font-family);
