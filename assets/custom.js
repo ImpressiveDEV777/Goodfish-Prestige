@@ -99,22 +99,25 @@
 	local_methodContainerDrop.querySelector('span').innerHTML = '(' + dataContainer.dataset.m1d + ')';
 	alertMethod.innerHTML = dataContainer.dataset.m1em;
 	pickup_methodContainerDrop.querySelector('h4').innerHTML = M2T;
-	pickup_methodContainerDrop.querySelector('[data-m2d1]').innerHTML = '(' + dataContainer.dataset.m2d1 + ')';
-	pickup_methodContainerDrop.querySelector('[data-m2d2]').innerHTML = '(' + dataContainer.dataset.m2d2 + ')';
 	mail_methodContainerDrop.querySelector('h4').innerHTML = dataContainer.dataset.m3t;
 	// mail_methodContainerDrop.querySelector('span').innerText = dataContainer.dataset.m3d;
 	if (alertContainer) {
 		alertContainer.querySelector('.Alert__Message').innerHTML = dataContainer.dataset.se;
 	}
   
-  // window.onresize = () => {
-  //   if (localStorage.getItem('method')) {
-  //     document.getElementById('MainContent').style.marginTop = '0';
-  //   }
-  // }
-  
   window.onload = function() {
+    var zapierContainer = document.querySelectorAll('#storePickupApp .checkoutMethod');
     var mthod = localStorage.getItem("method");
+
+    var waitForInput = () => {
+      var deliveryGeoSearchField = document.getElementById('deliveryGeoSearchField');
+      if (!deliveryGeoSearchField) {
+        setTimeout(waitForInput, 100);
+        return;
+      }
+      deliveryGeoSearchField.value = localStorage.getItem('postalcode') || '';
+      deliveryGeoSearchField.nextElementSibling.click();            
+    }
     
     if (mthod == '' || mthod == null) {
       openMethodModal();
@@ -126,12 +129,14 @@
           containerBtn.style.display = 'none';
         }
       }
-      // document.querySelectorAll('[data-quick-add-label]').forEach((el) => {
-      //   el.querySelector('small:first-child').innerText = "quick add";
-      // });
       var method, data;
       switch (localStorage.getItem("method")) {
         case '1':
+          if (zapierContainer[1]) {
+            zapierContainer[0].click();
+            // setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
+          }          
+          waitForInput();
           method = M1T;
           data = localStorage.getItem("postalcode");
           inputPostalDropdown.value = data;
@@ -139,10 +144,17 @@
           inputPostalDropdown.style.display = 'block';
           break;
         case '2':
+          if (zapierContainer[1]) {
+            zapierContainer[1].click();
+            // setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
+          }  
           method = "Delivery Method";
           data = M2T;
           break;
         case '3':
+          if (zapierContainer[1]) {
+            zapierContainer[0].click();
+          }
           method = "Delivery Method";
           data = 'Shipping';
           if (checkoutBtn) {
@@ -158,6 +170,28 @@
       stickHeader();
     }
 
+    if (zapierContainer[0]) {
+      zapierContainer[0].addEventListener('click', (e) => {
+         cartItems.forEach((el) => {
+           if (el.dataset.shipping != 1) {
+             checkoutBtn.style.display = 'none';
+           }
+         });
+     });
+     }
+     
+     if (zapierContainer[1]) {
+      zapierContainer[1].addEventListener('click', (e) => {
+         checkoutBtn.style.display = 'block';
+     });
+     }
+     
+     if (zapierContainer[2]) {
+      zapierContainer[2].addEventListener('click', (e) => {
+         checkoutBtn.style.display = 'block';
+     });
+     }  
+
     if (document.getElementById('MethodDropdown__Confirm')) {
       document.getElementById('MethodDropdown__Confirm').onclick = () => {        
         var mthd = localStorage.getItem("method"), dtad;
@@ -166,13 +200,13 @@
           alert(MSA);
           return;
         }
-        
-        // document.querySelectorAll('[data-quick-add-label]').forEach( el => {
-        //   el.querySelector('small:first-child').innerText = "quick add";
-        // });
-        
+                
         switch (mthd) {
           case '1':
+            if (zapierContainer[1]) {
+              zapierContainer[1].click();
+              waitForInput();
+            }
             dtad = inputPostalDropdown.value;
             var zip = dtad.slice(0, 3);
             if (perishableZones.join(',').toLowerCase().split(',').indexOf(zip.toLowerCase()) == -1){
@@ -193,6 +227,9 @@
             }
             break;
           case '2':
+            if (zapierContainer[2]) {
+              zapierContainer[2].click();
+            }
 						localStorage.setItem("postalcode", M2T);
             methodDropdownContainer.classList.remove('active');
             if (alertContainer) {
@@ -206,12 +243,10 @@
             }
             break;
           case '3':
+            if (zapierContainer[0]) {
+              zapierContainer[0].click();
+            }
             localStorage.setItem("postalcode", "Shipping");
-            // document.querySelectorAll('[data-quick-add-label]').forEach( el => {
-            //   if (el.dataset.tag != "Shipping") {
-            //     el.querySelector('small:first-child').innerText = QAE;
-            //   }
-            // });
             methodDropdownContainer.classList.remove('active');
             currentPostal.innerHTML = "Delivery Method: <span>Shipping</span>";
             if (alertContainer) {
@@ -242,6 +277,10 @@
           case '1':
             var dta = document.querySelector('#MethodModal #Postalcode').value;
             localStorage.setItem('postalcode', dta);
+            if (zapierContainer[1]) {
+              zapierContainer[1].click();
+              waitForInput();
+            }
             var zip = dta.slice(0, 3);
             if (perishableZones.join(',').toLowerCase().split(',').indexOf(zip.toLowerCase()) == -1){
               document.querySelector('.PostAlert').style.display = 'block';
@@ -260,6 +299,9 @@
             methodModalContainer.classList.remove('active');
             break;
           case '2':
+            if (zapierContainer[2]) {
+              zapierContainer[2].click();
+            }
             methodModalContainer.classList.remove('active');
             if (alertContainer) {
               alertContainer.style.display = 'none';
@@ -270,6 +312,9 @@
             break;
           case '3':
             localStorage.setItem("postalcode", "Shipping");
+            if (zapierContainer[0]) {
+              zapierContainer[0].click();
+            }
             methodModalContainer.classList.remove('active');
             currentPostal.innerHTML = "Delivery Method: <span>Shipping</span>";
             if (alertContainer) {
@@ -364,18 +409,6 @@
       }
     }
     
-    // if (document.querySelector('.close_tip_modal')) {
-    //   document.querySelector('.close_tip_modal').onclick = () => {
-    //     document.querySelector('.tipModal_container').classList.remove('active');
-    //   }
-    // }
-    
-    // if (document.getElementById('tip_modal')) {
-    //   document.getElementById('tip_modal').onclick = () => {
-    //     document.querySelector('.tipModal_container').classList.add('active');
-    //   }
-    // }
-    
     if (document.querySelector('.MethodDropdown__Close')) {
       document.querySelector('.MethodDropdown__Close').onclick = () => {
         closeMethodDropdown();
@@ -390,12 +423,6 @@
 
     function stickHeader() {
       document.querySelector('.Postalcode__Bar').classList.add('active');
-      // if (document.getElementById('template-product') && document.querySelector('.product_age .form__wrapper.is-sticky.with-sticky-header')) {
-      //   document.querySelector('.product_age .form__wrapper.is-sticky.with-sticky-header').style.top = '125px';
-      // }
-      // if (document.querySelector('.template-index') == undefined) {
-      //   document.getElementById('MainContent').style.marginTop = '29px';
-      // }
     }
 
     function closeMethodDropdown() {
