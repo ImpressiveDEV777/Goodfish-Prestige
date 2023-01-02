@@ -366,54 +366,61 @@
   "shopify": {
     "checkout": {
       "general": {
-        "continue_to_shipping_method": "Continue to delivery methods",
-        "back_to_shipping_method": "Return to delivery method",
-        "edit_shipping_address": "Edit delivery address",
-        "edit_shipping_method": "Edit delivery method",
+        "continue_to_shipping_method": "Continue",
+        "back_to_shipping_method": "Back",
+        "edit_shipping_address": "Edit",
+        "edit_shipping_method": "Edit",
         "tips": {
           "description": "Add a tip for your delivery driver",
           "title": "Driver tip"
         }
       },
       "contact": {
-        "shipping_address_title": "Delivery address",
+        "shipping_address_title": "Pickup address",
         "optional_phone_label": "Your phone number (optional)",
         "optional_phone_placeholder": "Your phone number (optional)",
         "phone_label": "Your phone number",
-        "phone_placeholder": "Your phone number"
+        "phone_placeholder": "Your phone number",
+        "first_name_label": "Your first name",
+        "last_name_label": "Your last name",
+        "last_name_placeholder": "Your last name",
+        "optional_first_name_label": "Your first name (optional)",
+        "first_name_placeholder": "Your first name (optional)",
+        "optional_last_name_label": "Your last name (optional)",
+        "optional_last_name_placeholder": "Your last name (optional)"
       },
       "order_summary": {
-        "free_shipping_discount_label": "Free delivery",
+        "free_shipping_discount_label": "Free pickup",
         "discount_requires_customer_notice": "Please submit your delivery information to apply the {{code}} discount code",
         "shipping_information_does_not_meet_discount_requirements_notice": "Your delivery information does not meet the requirements for the {{code}} discount code",
-        "shipping_label": "Delivery"
+        "shipping_label": "Store Pickup"
       },
       "review": {
         "blocks": {
-          "shipping_address_title": "Deliver to"
+          "shipping_address_title": "Pickup address"
         }
       },
       "shipping": {
-        "title": "Local Delivery",
+        "title": "Store Pickup",
         "shipping_method_title": "Local Delivery",
-        "waiting_on_rate_notice": "Please wait while we fetch available delivery rates...",
-        "no_rates_for_cart_or_destination_notice": "There are no delivery methods available for your cart or destination.",
-        "no_rates_for_country_notice": "We do not offer delivery to {{country}}.",
-        "please_enter_your_shipping_information_notice": "Please enter your delivery information"
+        "waiting_on_rate_notice": "Please wait while we fetch available pickup rates...",
+        "no_rates_for_cart_or_destination_notice": "Pickup is not available for your cart or destination.",
+        "no_rates_for_country_notice": "We do not offer pickups in {{ country }}.",
+        "please_enter_your_shipping_information_notice": "Please go back to the shopping cart page and choose a pickup location."
       },
       "payment": {
-        "same_billing_address_label": "Same as delivery address"
+        "same_billing_address_label": "Please use the option below ⬇"
       },
       "shipping_errors": {
         "shipping_method": "Your cart has been modified and the delivery rate you previously selected no longer applies. Please select a new rate."
       },
       "thank_you": {
         "shipping_information_title": "Delivery information",
-        "shipping_address_title": "Delivery address",
+        "shipping_address_title": "Pickup address",
         "shipping_method_title": "Delivery method",
         "marker": {
-          "shipping": "Delivery address",
-          "current": "Current delivery location"
+          "shipping": "Pickup address",
+          "current": "Pickup address"
         },
         "confirmed_description_html": "We have accepted your order, and we are getting it ready. A confirmation email has been sent to {{ email }}. Come back to this page for updates on your delivery status.",
         "no_tracking_number": "There is no tracking number for this delivery.",
@@ -434,9 +441,13 @@
         "in_transit_description": "Come back to this page for updates on your delivery status.",
         "in_transit_title": "Your order is on the way",
         "confirmed_title": "Your delivery is confirmed",
-        "order_updates_subscribe_to_email_notifications": "Get delivery updates by email",
-        "order_updates_subscribe_to_phone_notifications": "Get delivery updates by email or SMS",
-        "order_updates_subscribe_to_email_or_phone_notifications": "Get delivery updates by SMS"
+        "order_updates_subscribe_to_email_notifications": "Get pickup updates by email",
+        "order_updates_subscribe_to_phone_notifications": "Get pickup updates by email or SMS",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Get pickup updates by SMS"
+      },
+      "shipping_title": "Store Pickup",
+      "delivery_options": {
+        "shipping_address": "Pickup address"
       }
     },
     "notices": {
